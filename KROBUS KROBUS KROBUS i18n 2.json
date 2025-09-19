@@ -1,0 +1,526 @@
+{
+
+///////////////////
+[///NON-ROOMMATE///     
+///////////////////
+
+    //0 HEARTS
+        "{{ModId}}_Sewer_0_1": "Hello.",
+        "{{ModId}}_Sewer_0_2": "Please, don't hurt me. I am different than the others.$2#$e#I've spent a lot of time observing humans. I know you like to shop. Care to see my wares? I find a lot of stuff in the sewers.",
+        "{{ModId}}_Sewer_0_3": "I am too sensitive to sunlight to leave the sewers.#$b#The conditions in here are perfect.$1#$e#Care to buy anything?",
+        "{{ModId}}_Sewer_0_4": "I find things here and I sell them.#$b#Care to purchase anything?",
+        "{{ModId}}_Sewer_0_5": "Please don't tell anyone about me.#$b#Humans tend to destroy things they can't understand...$2",
+        "{{ModId}}_Sewer_0_6": "On Fridays I stay silent as a sign of my devotion to Yoba.",
+        "{{ModId}}_Sewer_0_7": "AAAAah!$3#$e#...I apologize @, I remain wary of humans.$2#$b#My shop is still open to you, however.$0",
+        "{{ModId}}_Sewer_0_8": "Please keep my location a secret, @.$3",
+        "{{ModId}}_Sewer_0_9": "..Hello. Um, please excuse my apprehensiveness, I remain wary of new visitors.",
+        "{{ModId}}_Sewer_0_10": "...Hello.#$e#Would you care to purchase anything?",
+        "{{ModId}}_Sewer_0_11": "Please keep my existence a secret, @.$3",
+        "{{ModId}}_Sewer_0_12": "I cannot spend too much time in the sun. Can you not spend much time in the dark?$3",
+
+
+    //2 HEARTS
+        "{{ModId}}_Sewer_2_1": "Hello, @. Back again? You must really like my shop..$3",
+        "{{ModId}}_Sewer_2_2": "Please do not be alarmed by me, @.",
+        "{{ModId}}_Sewer_2_3": "I would like to meet more people, but I am too sensitive to sunlight to leave the sewers.$2#$b#I do enjoy the atmosphere of sewers, however.$1#$e#Care to purchase anything?",
+        "{{ModId}}_Sewer_2_4": "You can find a lot of nice things in the sewers.#$b#Care to purchase anything?",
+        "{{ModId}}_Sewer_2_5": "Please do not tell anyone about me.#$b#Humans tend to destroy things they can't understand...$2",
+        "{{ModId}}_Sewer_2_6": "Please keep my location a secret, @.$3",
+        "{{ModId}}_Sewer_2_7": "$query !PLAYER_HAS_CAUGHT_FISH Current 682#I understand many humans enjoy searching for fish. If you're interested; there are some fish down here, but it's mostly just carp.$0#$b#I have once observed a very strange-looking fish swimming around here, however.$3",
+        "{{ModId}}_Sewer_2_8": "On Fridays, I stay silent as a sign of my devotion to Yoba.",
+        "{{ModId}}_Sewer_2_9": "Aaah!$3#$e#...I apologize @, I remain a little wary of humans.$2#$b#My shop is still open to you, however.$0",
+        "{{ModId}}_Sewer_2_10": "A ~1800 year war between my people and the Smoluanu recently ended. There are few Smoluanu left now, but the resentment still boils for all of those who remain, Smoluanu or not.",
+        "{{ModId}}_Sewer_2_11": "I cannot spend too much time in the sun. Can you not spend much time in the dark?$3",
+        "{{ModId}}_Sewer_2_12": "You visit me a lot. Do you enjoy it here, down in the sewers?",
+
+
+    //4 HEARTS
+        "{{ModId}}_Sewer_4_1": "Have you seen my vases? I'm very fond of them!$1",
+        "{{ModId}}_Sewer_4_2": "Hello, @. Back again?$1",
+        "{{ModId}}_Sewer_4_3": "I would like to meet more people, but I am too sensitive to sunlight to leave the sewers.$2#$b#I do enjoy the atmosphere of sewers, however.$1#$e#Oh, would you care to purchase anything?",
+        "{{ModId}}_Sewer_4_4": "You can find a lot of nice things in the sewers.$1#$b#It's odd that humans don't like it down here.",
+        "{{ModId}}_Sewer_4_5": "Please do not tell anyone about me.#$b#Humans tend to destroy things they cannot understand...$2",
+        "{{ModId}}_Sewer_4_6": "Please keep my location a secret, @.",
+        "{{ModId}}_Sewer_4_8": "$query !PLAYER_HAS_CAUGHT_FISH Current 682#I understand many humans enjoy searching for fish. If you're interested; there are some fish down here, but it's mostly just carp.$0#$b#I have once observed a very strange-looking fish swimming around here, however.$3",
+        "{{ModId}}_Sewer_4_9": "On Fridays, I stay silent as a sign of my devotion to Yoba.",
+        "{{ModId}}_Sewer_4_10": "I'd love to see more of the outside world, but.. it would not be safe for me.$s",
+        "{{ModId}}_Sewer_4_11": "You're not like the other humans, are you, @?",
+        "{{ModId}}_Sewer_4_12": "You can hear into any house from here if you put your ear up to the right pipe.#$b#I wouldn't eavesdrop, though!$3",
+        "{{ModId}}_Sewer_4_13": "There are lots of tasty bugs in here!$1",
+        "{{ModId}}_Sewer_4_14": "Do you feel comfortable in the darkness? I understand the human body does somehow require sunlight to maintain health. Is it harmful for you to spend too much time down here?$3#$b#Please do make sure to manage your human needs with care, @, I appreciate your visits but I do not wish to cause you any harm.$2",
+        "{{ModId}}_Sewer_4_15": "A ~1800 year war between my people and the Smoluanu recently ended. There are few Smoluanu left now, but the resentment still boils for all of those who remain, Smoluanu or not.",
+        "{{ModId}}_Sewer_4_16": "It can get quite lonely down here..$0#$b#A while ago, two human children tried to enter the sewers.$3#$e#I really wanted to meet them but.. there would be no chance of them keeping my existence a secret.$2",
+        "{{ModId}}_Sewer_4_17": "You visit me a lot. Do you enjoy it here, down in the sewers?",
+        "{{ModId}}_Sewer_4_18": "\"Krobus\" means 'bridge-crosser' in our language. I chose the name myself!$1",
+        "{{ModId}}_Sewer_4_19": "",
+        "{{ModId}}_Sewer_4_20": "",
+        "{{ModId}}_Sewer_4_21": "",
+
+    //6 HEARTS
+        "{{ModId}}_Sewer_6_1": "Have you seen my vases? I'm very fond of them!$1",
+        "{{ModId}}_Sewer_6_2": "Hello, @. It's nice to see you again.",
+        "{{ModId}}_Sewer_6_3": "I would like to meet more people, but I am too sensitive to sunlight to leave the sewers.$2#$b#I am still very appreciative of your visits, @.$1",
+        "{{ModId}}_Sewer_6_4": "You can find a lot of nice things in the sewers.$1#$b#It's odd that humans don't like it down here.",
+        "{{ModId}}_Sewer_6_5": "Please don't tell anyone about me.#$b#Most humans are frightened by us shadowfolk... perhaps for good reason... I do not have a good history with the many of the shadowfolk either..$s#$b#But regardless, if the townspeople knew about me, I may not be safe here.$2",
+        "{{ModId}}_Sewer_6_6": "..Do you ever feel lonely, @$2?",
+        "{{ModId}}_Sewer_6_8": "$query !PLAYER_HAS_CAUGHT_FISH Current 682#I understand many humans enjoy searching for fish. If you're interested; there are some fish down here, but it's mostly just carp.$0#$b#I have once observed a very strange-looking fish swimming around here, however.$3",
+        "{{ModId}}_Sewer_6_9": "On Fridays, I stay silent as a sign of my devotion to Yoba. I hope you don't mind.",
+        "{{ModId}}_Sewer_6_10": "I'd love to see more of the outside world, but.. it would not be safe for me.$s",
+        "{{ModId}}_Sewer_6_11": "You're not like the other humans, are you, @?$1",
+        "{{ModId}}_Sewer_6_12": "You can hear into any house from here if you put your ear up to the right pipe.#$b#I wouldn't eavesdrop, though!$3#$e#Well... maybe a little$ *giggles* $7",
+        "{{ModId}}_Sewer_6_14": "Do you feel comfortable in the sewers?$3#$b#Please do make sure to manage your human needs with care, @, I appreciate your visits but I do not wish to cause you any harm.$2",
+        "{{ModId}}_Sewer_6_15": "There are lots of tasty bugs in here!$1",
+        "{{ModId}}_Sewer_6_16": "Hello, @. I'm thankful for your visits, it can get quite lonely down here..$0#$b#A while ago, two human children tried to enter the sewers.$3#$e#I really wanted to meet them but.. there would be no chance of them keeping my existence a secret.$2",
+        "{{ModId}}_Sewer_6_17": "A ~1800 year war between my people and the Smoluanu recently ended. There are few Smoluanu left now, but the resentment still boils for all of those who remain, Smoluanu or not.",
+        "{{ModId}}_Sewer_6_18": "You visit me a lot. Do you enjoy it here, down in the sewers?",
+        "{{ModId}}_Sewer_6_19": "\"Krobus\" means 'bridge-crosser' in our language. I chose the name myself!$1",
+        "{{ModId}}_Sewer_6_20": "Rasmodius is a kind man. He is one of the very few humans whom I can trust.$1#$e#His worldview is in much better alignment with reality than that of most humans.",
+        "{{ModId}}_Sewer_6_21": "Do you feel comfortable in the darkness? I understand the human body does somehow require sunlight to maintain health. Is it harmful for you to spend too much time down here?$3#$b#Please do make sure to manage your human needs with care, @, I appreciate your visits but I do not wish to cause you any harm.$2",
+
+
+
+        //8 HEARTS
+        "{{ModId}}_Sewer_8_1": "Have you seen my vases? I'm very fond of them!$1",
+        "{{ModId}}_Sewer_8_2": "Hello, @. It's nice to see you again!$1",
+        "{{ModId}}_Sewer_8_3": "Hello, @. It can be very lonely down here without anyone else...$2#$e#@, I very much appreciate your visits.$l",
+        "{{ModId}}_Sewer_8_4": "There plenty of nice things to be found in the sewers.$1#$b#It's odd that humans don't like it down here.",
+        "{{ModId}}_Sewer_8_5": "I very much appreciate you keeping my location a secret, @.$1",
+        "{{ModId}}_Sewer_8_6": "..Do you ever feel lonely, @$2?",
+        "{{ModId}}_Sewer_8_8": "$query !PLAYER_HAS_CAUGHT_FISH Current 682#I understand many humans enjoy searching for fish. If you're interested; there are some fish down here, but it's mostly just carp.$0#$b#I have once observed a very strange-looking fish swimming around here, however.$3",
+        "{{ModId}}_Sewer_8_9": "On Fridays, I stay silent as a sign of my devotion to Yoba. I hope you don't mind.",
+        "{{ModId}}_Sewer_8_10": "I'd love to see more of the outside world, but.. it would not be safe for me.$s",
+        "{{ModId}}_Sewer_8_11": "You're not like the other humans, are you, @?$1",
+        "{{ModId}}_Sewer_8_12": "You can hear into any house from here if you put your ear up to the right pipe.#$b#I wouldn't eavesdrop, though!$3#$e#Well... maybe a little$ *giggles*$7",
+        "{{ModId}}_Sewer_8_13": "\"Krobus\" means '\"bridge-crosser\"' in our language. We choose our names you see, and I made it my goal to live up to my mine.$1",
+        "{{ModId}}_Sewer_8_14": "You've opened my eyes to the world of humans.$1#$b#I appreciate you for that, @.$l",
+        "{{ModId}}_Sewer_8_15": "I'll never know what it's like to be human... but talking to you, I feel like I understand it just a little.$1",
+        "{{ModId}}_Sewer_8_16": "There are lots of tasty bugs in here!$7#$e#Oh, would you like any?$1",
+        "{{ModId}}_Sewer_8_17": "Do you feel comfortable in the sewers?$3#$b#Please do make sure to manage your human needs with care, @, I appreciate your visits but I do not wish to cause you any harm.$2",
+        "{{ModId}}_Sewer_8_18": "Thank you for being respectful toward my decision of silence on Fridays, @. It is relieving to find folks who accept my devotion to Yoba.$1",
+        "{{ModId}}_Sewer_8_19": "A ~1800 year war between my people and the Smoluanu recently ended.$3#$b#The Smoluanu slew us indiscriminately for ages, violent and non-violent alike.$a#$b#Though, much of our kind did the same to theirs. Both species attacked each other relentlessly. It was a disgusting, terrible war.$2#$b#As the death tolls grew, the unique cultures of both Smoluanu and Shadowfolk were warped into nought but reckless hate, corruption and violence.#$e#...Most of the Smoluanu died. It was gruesome and terrible. ...I don't really want to talk about it anymore. *whimper*$s",
+        "{{ModId}}_Sewer_8_20": "Greetings, @! I've been so thankful for your visits of late!$1#$b#It can get quite lonely down here..$0#$b#A while ago, two human children tried to enter the sewers.$3#$e#I really wanted to meet them but.. there would be no chance of them keeping my existence a secret.$2",
+        "{{ModId}}_Sewer_8_21": "Do you feel comfortable in the darkness? I understand the human body does somehow require sunlight to maintain health. Is it harmful for you to spend too much time down here?$3#$b#Please do make sure to manage your human needs with care, @, I greatly appreciate your visits but I do not wish to cause you any harm.$2",
+        "{{ModId}}_Sewer_8_22": "Rasmodius is a kind man. He is one of the very few humans; besides you of course, @, whom I can trust.$1#$e#His worldview is in much better alignment with reality than that of most humans.",
+
+
+    //10 HEARTS
+
+        "{{ModId}}_Sewer_10_1": "Have you seen my vases? I'm very fond of them!$1",
+        "{{ModId}}_Sewer_10_2": "Hello, @. It's nice to see you again.$l",
+        "{{ModId}}_Sewer_10_3": "Hello, @. It can be very lonely down here without anyone else...$2#$e#@, I very much appreciate your visits.$l",
+        "{{ModId}}_Sewer_10_4": "There plenty of nice things to be found in the sewers.$1#$b#It's odd that humans don't like it down here.",
+        "{{ModId}}_Sewer_10_5": "I very much appreciate you keeping my location a secret, @.$1#$b#I must confess I was worried at first, that you might tell someone and that the villagers would come for me...$2#$b#But I wholly trust you now.$l",
+        "{{ModId}}_Sewer_10_6": "..Do you ever feel lonely, @$2?",
+        "{{ModId}}_Sewer_10_8": "$query !PLAYER_HAS_CAUGHT_FISH Current 682#I understand many humans enjoy searching for fish. If you're interested; there are some fish down here, but it's mostly just carp.$0#$b#I have once observed a very strange-looking fish swimming around here, however.$3",
+        "{{ModId}}_Sewer_10_9": "On Fridays, I stay silent as a sign of my devotion to Yoba. I hope you don't mind.",
+        "{{ModId}}_Sewer_10_10": "I'd love to see more of the outside world, but.. it would not be safe for me.$s",
+        "{{ModId}}_Sewer_10_11": "You're not like the other humans, are you @?$1",
+        "{{ModId}}_Sewer_10_12": "You can hear into any house from here if you put your ear up to the right pipe.#$b#I wouldn't eavesdrop, though!$3#$e#Well... maybe a little$ *giggles*$7",
+        "{{ModId}}_Sewer_10_13": "\"Krobus\" means '\"bridge-crosser\"' in our language. We choose our names you see, and I made it my goal to live up to my mine.$1",
+        "{{ModId}}_Sewer_10_14": "You've opened my eyes to the world of humans.$1#$b#I appreciate you for that, @.$l",
+        "{{ModId}}_Sewer_10_15": "I'll never know what it's like to be human... but talking to you, I feel like I understand it just a little.$1",
+        "{{ModId}}_Sewer_10_16": "There are lots of tasty bugs in here!$7#$e#Oh, would you like any?$1",
+        "{{ModId}}_Sewer_10_17": "Do you feel comfortable in the sewers?$3#$b#Please do make sure to manage your human needs with care, @, I deeply appreciate your visits but I do not wish to cause you any harm.$2",
+        "{{ModId}}_Sewer_10_18": "Thank you for being respectful toward my decision of silence on Fridays, @. It is relieving to find folks who accept my devotion to Yoba.$1",
+        "{{ModId}}_Sewer_10_19": "I decided upon the name \"Krobus\" for myself. $1#$b#This was only a few decades ago.$0#$e#Before then, I had other names... when I lived among the more violent of the Shadowfolk...$2#$b#I am glad to be \"Krobus\" now.",
+        "{{ModId}}_Sewer_10_20": "Hello, @.$1#$b#I've been thinking a lot recently.#$b#*sigh* ...I carry mixed feelings about my kind. On one hand, I'm ashamed of the violence we've caused. It's said that chaos is simply our nature.$2#$b#But... we're not all violent or malicious. And my kin, my origin... it is still who I am. I am still a Shadowfolk, and I cannot forsake my kind.$3#$b#I know it is a difficult ask, but... please do not hate us. The culture of corruption and violence among my species ran amok after the war.$2#$b#I was one of few to escape it, but... there are other kind Shadowfolk out there, I know it. I knew some of them, back in the caves.$3#$b#I just hope they are still alive... many of us were persecuted by those violent Shadowfolk who remained blinded by their ignorance and pain.$2#$b#I only hope that I can transcend the brutality of my origin.$2",
+        "{{ModId}}_Sewer_10_21": "I remain endlessly grateful for your kindness, @. Thank you.$l",
+        "{{ModId}}_Sewer_10_22": "Hello, @! I'm very glad to see you, may Yoba bless your day!$l#$b#I'm grateful for your visits, it can get quite lonely down here..$0#$b#A long while ago, two human children tried to enter the sewers.$3#$e#I really wanted to meet them but.. there would be no chance of them keeping my existence a secret.$2",
+        "{{ModId}}_Sewer_10_23": "Rasmodius is a kind man. He is one of the very few humans; besides you of course, @, whom I can trust.$1#$e#His worldview is in much better alignment with reality than that of most humans.",
+        "{{ModId}}_Sewer_10_24": "Do you feel comfortable in the darkness? I understand the human body does somehow require sunlight to maintain health. Is it harmful for you to spend too much time down here?$3#$b#Please do make sure to manage your human needs with care, @, I cherish your visits but I do not wish to cause you any harm.$2",
+]
+
+////////////////////////
+[//ROOMATE; NOT FRIDAY//
+////////////////////////
+
+
+
+    //AFFECTION
+        //GOOD
+            "{{ModId}}_Good_1": "I thank Yoba every day for leading me to you, @.$l",
+            "{{ModId}}_Good_2": "Hello @!$h#$b#It's always nice seeing you.$1#$e#Please be careful on your escapades today, @. I comprehend your desire for adventure, but I worry about you a great deal when you are gone.$2#$e#Never forget that I cherish you, @.$l",
+            "{{ModId}}_Good_3": "I feel a odd sensation in my body... is this... 'platonic love'?[769][769][769][769][769][769][769][769][769][769]$l#$b#... Oh, wait... I'm shedding... [769][769][769]$s#$b#On second thought, perhaps it might be both![769]$h",
+            "{{ModId}}_Good_4": "I won't ever grow old, but you will and then eventually you'll... die...$s#$b#Sometimes it makes me sad... but @, being able to live with you now is worth all the sadness in this world.$l",
+            "{{ModId}}_Good_5": "@, you bring me so much hope for the future of our species.$l",
+            "{{ModId}}_Good_6": "Please do make sure to manage your human needs with care, @.$3#$b#I couldn't bear to lose you...$2",
+            "{{ModId}}_Good_7": "Hello @! I'm going to spend my whole day playing with the \"faucets\"! They're so fascinating!$1#$e#What are your plans for the day?$0",
+            "{{ModId}}_Good_8": "Ever since I left my people, I've been searching for a home... now I belong somewhere, here with you, forever. That means everything to me.$4",
+            "{{ModId}}_Good_9": "$query PLAYER_NPC_RELATIONSHIP current Dwarf Friendly, PLAYER_HAS_SEEN_EVENT current 96420006#I wonder how Dwarf is doing...$0#$b#If you go to the mines today, could you check on them?$3|Hello, @! I hope your day will be fruitful.$1",
+            "{{ModId}}_Good_10": "@!$1#$b#I know I live with you, but it's always so lovely to see you again.$l#$b#Has your day been satisfactory?$1",
+            "{{ModId}}_Good_11": "Hello @! I'm so happy I get to live with you now.$1#$b#I remember when I first memorized the sound of your footsteps splashing down the sewer halls.$l",
+            "{{ModId}}_Good_12": "Hello @! May Yoba bless your morning!$l",
+            "{{ModId}}_Good_13": "I'm going to clean the house all day! This is fun!$7#$e#I love cleaning! Also, I found this! I hope you can find some use for it @![MysticSyrup 72 453 877 228]$1",
+            "{{ModId}}_Good_14": "All the pain of my past was worth it so I could meet you, @.$l",
+            "{{ModId}}_Good_15": "@... I think I like being incorporeal now!$7#$b#I would like to thank you for that, @. I did not think I could ever feel so comfortable with my being, but you proved me wrong!$l#$e#%Krobus hugs you tightly.",
+            "{{ModId}}_Good_Meet": "@... I think I want to meet some other humans soon.$l#$b#It will be frightening, but it is my duty as \"bridge-crosser\" to try. I thank you for giving me this confidence, @.$1#$t {{ModId}}_krobusmeetsvillagers 99999999999999",
+            "{{ModId}}_Good_Question": "",
+
+            //NEUTRAL
+            "{{ModId}}_Neutral_1": "I won't ever grow old, but you will. Sometimes it makes me sad... but that's okay.$s",
+            "{{ModId}}_Neutral_2": "Do you think your Grandpa would approve of a monster living in his house?",
+            "{{ModId}}_Neutral_3": "Do you think we could get in trouble for living together?$s",
+            "{{ModId}}_Neutral_4": "It's so bright in here... I might hide in your chest for a few hours.$0",
+            "{{ModId}}_Neutral_5": "Welwick says I'm cursed today....$s",
+            "{{ModId}}_Neutral_6": "I'll tell you a secret... I don't actually sleep, I just lay there with my eyes closed...",
+            "{{ModId}}_Neutral_7": "You're a strange one, to want to live with a creature like me.",
+            "{{ModId}}_Neutral_8": "I'm going to clean the house all day! This is fun.$7",
+            "{{ModId}}_Neutral_9": "I wonder if we'll live here our entire lives? Moving would probably be too dangerous for me.",
+            "{{ModId}}_Neutral_10": "Am I leaving too much void dust around the house? I'll clean it up if you need me to.$3",
+            "{{ModId}}_Neutral_11": "",
+            "{{ModId}}_Neutral_12": "",
+            "{{ModId}}_Neutral_13": "",
+
+            "{{ModId}}_Neutral_Question": "Hello @! It's nice to see you.$1#$b#I'm not feeling well at the moment... I worry I may be a burden on you, @. I cannot leave the house, I can only eat certain food, I need the temperature a certain way... #
+            $q beevilasshole/bedecent {{ModId}}_Neutral_Question_Fallback#I hope it's not too much of a bother to live with me, @.$s#
+            $r beevilasshole -500 {{ModId}}_Neutral_Question_1#(angry) Maybe you should've stayed in the sewers after all, Krobus.#
+            $r bedecent 150 {{ModId}}_Neutral_Question_2#Your needs don't make you a burden, Krobus. You always tell me to care for my needs, and you should do the same. Living with you makes my life infinitely better, and I love you.#
+            $r bedecent 10 {{ModId}}_Neutral_Question_3#That's okay.#
+            $r bedecent 25 {{ModId}}_Neutral_Question_4#I love living with you!",
+                "{{ModId}}_Neutral_Question_Fallback": "*whimper*$2",
+                "{{ModId}}_Neutral_Question_1": "*whimper*$2",
+                "{{ModId}}_Neutral_Question_2": "*sniffle* I feel the same way about you, @.$l#$e#Oh @, I've never felt so safe to be myself with somebody as I do with you now.$l",
+                "{{ModId}}_Neutral_Question_3": "That's relieving. Thank you, @.$0",
+                "{{ModId}}_Neutral_Question_4": "Really? $u#$b#I'm glad to hear that.$1",
+
+    //RAINY
+        //DAY
+            "{{ModId}}_Rainy_Day_1":"The sound of the rain is so soothing...$1#$b#It's odd to think; I might have never experienced that sound if had I not left the caves. It feels so.. natural. So primal. I simply cannot envision a world, a life without rain, and yet, that is how I lived for centuries...$0#$e#@, I so am glad to have experienced rain, and love, and all of the other things I did not know were possible.$l",
+            "{{ModId}}_Rainy_Day_2":"Good morning @!$1#$b#I'm happy to see you doing well, I always get so worried when you're asleep!$3#$b#Us shadowfolk do not sleep, so I don't know how it should look...$2#$b#Anyways, I made you this, I believe humans enjoy this upon waking up. [614 614 614 614 614 614 395 395 395 395 395 395 395 253 253 253 614 614 614 614 614 614 395 395 395 395 395 395 395 253 253 253 StardropTea]$0#$e#I hope you enjoy it.$1#$b#%Krobus hugs you before continuing with Krobus's day.",
+            "{{ModId}}_Rainy_Day_3":"$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#Good morning, @. I went on a walk last night with Dwarf and they found this for you. [562 807 71 244 747 562 334 576 568 420]$1#$e#It was pretty fun!$7#$b#I hope you like the gift! $1#$b#I'm not sure if Dwarf was honest about what you like...$0|Good morning, @. I went out last night and found this for you. $1[305 308 203 795 397]$0#$e#It was rather unnerving leaving the house, but I hope you enjoy it!$1",
+            "{{ModId}}_Rainy_Day_4":"Are you feeling alright?$3#$b#I apologize if I am being overbearing, I worry much about you.$2",
+            "{{ModId}}_Rainy_Day_5":"$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#As much as I try to be civilized and polite, I still have the urge to be mischievous sometimes...$6#$b#*giggles* I want to go mess with Shrimpy...$7#$b#Oh come now, I consider them a friend, we're allowed to irritate each other...$6#$b#..at least that's what I've read.$0#$e#Do you have any carp?$6#$e#...$7#$e#I'm joking!$6#$e#*giggles*$6|As much as I try to be civilized and polite, I still have the urge to be mischievous sometimes...$6#$b#*giggles* I want to go mess with Shrimpy...$6#$b#I probably shouldn't go to the caves though...$2",
+            "{{ModId}}_Rainy_Day_6":"When I gaze up at the dark clouds, I often wonder if there are \"cloud-folk\" who live up there... Shadowfolk exist after all.$3#$b#...Most of all, I hope there are more relationships like ours out there, @. You are truly special to me, and you give me hope for the future of all beings.$l#$e#@, I value our connection above all else.$l",
+            "{{ModId}}_Rainy_Day_7":"It is said that my people came here long ago, when a great storm summoned spirits from the void to cross into the physical plane as living shadow.$0#$b#*sigh* I wish I could learn more, but there is no way for me to contact my people...$s#$e#Well, I suppose they are my kind, but caring folk like you are my genuine people, @.$l",
+            "{{ModId}}_Rainy_Day_8":"I tend to be quite philosophical on rainy days. Something about this weather reminds me of my time in the sewers, my old refuge.",
+            "{{ModId}}_Rainy_Day_9":"",
+            "{{ModId}}_Rainy_Day_10":"$query BUILDINGS_CONSTRUCTED All \"Junimo Hut\"#Hello @! I spent a few hours playing with the junimos last night!$7#$b#I'm glad to have other magical creatures on the farm. Their presence helps me feel connected to my true being.$1",
+            "{{ModId}}_Rainy_Day_Question":"It's so nice when it rains.$h#$b#$q {{ModId}}_expressaffection/{{ModId}}_rainpreference {{ModId}}_Rainy_Day_Question_Fallback#Do you like rainy days as much as I do, @? $0#$r expressaffection 50 Rainy_Day_0_1#I like how happy it makes you.#$r rainpreference 8 Rainy_Day_0_2#I do, it's so peaceful.#$r rainpreference -30 Rainy_Day_0_3#I hate rain. I wish it was sunny year-round.",
+                "Rainy_Day_Question_Fallback": "I wish I could feel safe being outside...$2",
+                "Rainy_Day_Question_Affection": "%Krobus smiles widely and hugs you.It's odd hugging a being made of shadow, but it's very comforting. You sink into Krobus's embrace.#$b#I really appreciate you, @. I've been saving this for a while but.. I want to give it to you.[279]$4",
+                "Rainy_Day_Question_Like": "It is!$1#$b#I wish this world was more peaceful... $2#But I'm glad I have you, @.$l",
+                "Rainy_Day_Question_Dislike": "Oh...$2",
+
+        //NIGHT
+            "{{ModId}}_Rainy_Night_1":"On nights like this, those who gaze out windows can often see shadowy figures. $0#$b#To think... it might've been me.$7",
+            "{{ModId}}_Rainy_Night_2":"If the other shadow people knew about our living arrangement, they would... 'punish' me.$s#$b#Most of them despise humans, you know...$2#$e#...I'm scared, @.#$b#%You hug Krobus and reassure Krobus that you and Rasmodius will do everything in your collective power to keep Krobus safe. Krobus nods, but does not look wholly relieved. Perhaps Krobus's worries are not limited to Krobus's own safety, but yours, as well.",
+            "{{ModId}}_Rainy_Night_3":"You're sopping wet, and cold! Isn't that dangerous to your species!?$u#$b#Uhh.. here! This might warm you up![236]$0#$e#...Are you okay?$u#$e#%You reassure Krobus that you're fine, and that humans aren't as fragile as Krobus worries.#$b#Oh phew! *sigh* I'm glad you're okay!$4#$e#Oh, the soup? I visited Linus last night and he offered it to me. He said many humans enjoy it.$1",
+            "{{ModId}}_Rainy_Night_4":"Hello @! I already had dinner, but I can grab some leftovers for you!$1#$e#Oh, humans don't eat bug meat?$u#$b#That's odd, I would assume humans would be capale of digesting it... Hmm..",
+            "{{ModId}}_Rainy_Night_5":"Human culture has evolved much. Perhaps in few decades our living arrangement might be quite normal!$1#$b#I hope so.$l",
+            "{{ModId}}_Rainy_Night_6":"The sound of the rain reminds me of the sewers... it's comforting.$1#$e#The sewers were my refuge... I felt safe there. $0#$b#But...I didn't feel happy there. I was very lonely.$2#$b#The sewers may have been my refuge, but my home is with you, @.[769]$l#$e#Oh, I'm still shedding.$7",
+            "{{ModId}}_Rainy_Night_7":"Hello @! I'm glad to see you doing alright.$1#$b#You see, I'm still learning about the human condition, so I do worry about you being hurt from the weather at times...$2#$b#But you appear to be doing well, so that's relieving!$1#$e#You know, @, I've always been fascinated by corporeal bodies. There are countless intricate systems that allow them to function. Us shadowfolk are simple. We have cores, and we have void mass, and that is it.$3#$b#You humans have organs and limbs.. it's so fascinatingly complex! You have blood and fat and bones and skin, but you're still solid to the touch!$1#$b#Your limbs don't even mesh back into your sides when they're not in use! They just sort of flop around as you run.$7#$b#It's honestly a little cute!$1",
+            "{{ModId}}_Rainy_Night_8":"Rain can still feel quite unfamiliar to me at times. You see, there is no such weather in caves.$0#$e#I do enjoy the rain however. The rain reminds me that I am free, that I have chosen my own path to life.$1#$b#I do still miss my friends very deeply. Many of them '\"disapeared\"' after speaking out against the war.. *whimper*$2#$b#Please, be careful, @. I couldn't bear to lose you too...$2",
+            "{{ModId}}_Rainy_Night_Question":"Hello @!$1#$b#$q {{ModId}}_good_day/{{ModId}}_meh_day {{ModId}}_Rainy_Night_Question_Fallback#Did you have a fruitful day?#$r {{ModId}}_good_day 0 {{ModId}}_Rainy_Night_Question_Great#Very much so!#$r {{ModId}}_meh_day 0 {{ModId}}_Rainy_Night_Question_Alright#It was alright.#$r {{ModId}}_meh_day 0 {{ModId}}_Rainy_Night_Question_Bad#My day was terrible...",
+                "{{ModId}}_Rainy_Night_Question_Fallabck": "It's so nice living with you!$l#$b#I'm a lot happier here.$1#$b#The past can still haunt me at times though...$2#$b#Did you ever have a family?- $u#$b#I'm sorry for being so intrusive, I'm not feeling the best at the moment...$2#$b#...#$b#%You reassure Krobus that Krobus can ask you anything, and Krobus smiles gratefully. Krobus tells you of Krobus's worries and fears, and you listen intently, making sure Krobus knows that Krobus is safe with you.",
+                "{{ModId}}_Rainy_Night_Question_Great": "That's great!$1#$b#I did too, I tried to do some cooking and I made this! [203] $0#$b#I hope you can put it to good use.1$#$t {{ModId}}_Rainy_Night_Question_Good_Day 1",
+                "{{ModId}}_Rainy_Night_Question_Alright": "Oh.. is that bad?$2#$b#Ah, it's neutral, I understand.$0#$b#I had a fairly \"alright\" day too then.$0#$e#I'm glad you're back, I missed you!$1#$b#%Krobus hugs you, and you smile.",
+                "{{ModId}}_Rainy_Night_Question_Bad": "Oh, I'm sorry to hear that, @! $2#$b#Are you okay?$3#$b#%Krobus reaches out to touch your hand, looking startled when Krobus feels it.#$b#You seem quite cold, I will bring you some blankets to elevate your body temperature. I understand that humans can be quite sensitive to such things.$0#$e#%Krobus scurries off to find a blanket, then comes back and hands it to you.#$e#Is that better? $u#$b#Oh, good!$1#$b#Would you like to talk a bit? Speaking with a friend always helps me when I'm upset.$0#$b#%You vent to Krobus about your day, complaining in detail about how you accidentally gifted Lewis the prismatic shard you hoped to use at the forge, how you lost your favorite sword after passing out in the mines, how you spent 500g to go to the desert only to forget your supplies and have to go back, and about all of the other misfortunes of your day. Krobus listens intently and patiently while you rant, and you appreciate Krobus's sincerity. When you finish, you thank Krobus for being so thoughtful, and Krobus smiles.#$b#Of course @!$l#$b#I'm glad I was able to assist you.$1",
+
+
+    //NON-RAINY
+        //DAY
+            "{{ModId}}_Non-Rainy_Day_1": "Hello, @. I wish I could come help you with the farming... $2#$b#But don't worry about me, I'm content to stay home and read with %pet!$1",
+            "{{ModId}}_Non-Rainy_Day_2": "Hello, @! I'm considering spending my day balled up in one of your chests.$1#$e#Hmm? Oh, humans don't do that?$3#$b#Odd... you should try it sometime!$1#$b#Oh, humans cannot control their size, I had forgotten.$3#$e#It sounds so sad not being able to roll up into a tiny ball... $2",
+            "{{ModId}}_Non-Rainy_Day_3": "I thank Yoba every day for leading me to you, @.$l",
+            "{{ModId}}_Non-Rainy_Day_4": "Hello, @! I would like to speak with you, if you are willing. You see, I have been pondering about my past a lot of late..$0#$e#During the elemental wars, the Smoluanu slew us indiscriminately for ages, violent and non-violent alike. And in turn, much of our kind did the same.$a#$b#Both species attacked each other relentlessly. It was a disgusting, terrible war.$2#$b#As the death tolls grew, the unique cultures of both Smoluanu and Shadowfolk were warped into nought but reckless hate, corruption and violence.#$e#...Most of the Smoluanu died. It was gruesome and terrible. *whimper*$2#$b#*sigh* Even now that the war is over, shadowfolk culture has remained warped and twisted in its current violent state...$a#$b#Overall, I still carry mixed feelings about my kind. I'm ashamed of the violence we've caused. It's said that chaos is simply our nature.$2#$b#But... we're not all violent or malicious. And my kin, my origin... it is still who I am. I am still a Shadowfolk, and I cannot forsake my kind.$3#$b#I know it is a difficult ask, but... please do not hate us. The War was a cause of corruption and violence among my species.$2#$b#I was one of few to escape it, but... there are other kind Shadowfolk out there, I know it. I knew some of them, back in the caves.$3#$b#I just hope they are still alive... many of us were persecuted by those violent Shadowfolk who remained blinded by their ignorance and pain.$2#$b#I only hope that I can transcend the brutality of my origin, @.$2#$b#*sigh*#$e#...Thank you for listening to me, @. I appreciate having someone to speak with about these matters.$l#$e#I don't think I ever have before...$0",
+            "{{ModId}}_Non-Rainy_Day_5": "Hello, @! #AddMoney 1000#I've made a lot of $ recently, it seems my shop is as fruitful as ever!$1#$b#I hope you can purchase something satisfactory today.",
+            "{{ModId}}_Non-Rainy_Day_6": "*squish squish* You feel solid... sometimes I wonder what it would be like to have bones and flesh...$0",
+            "{{ModId}}_Non-Rainy_Day_7": "I'm happy here, in the house. I like to spend all my time in a good spot... I do not feel the need to \"get out\" like you humans do.#$e#But I understand that you need to! Please do not feel burdened by me, I am content to spend my time here.$3",
+            "{{ModId}}_Non-Rainy_Day_EXTRA": "Hello, @. I apologize if it was noisy last night, %pet spent hours chasing a mouse.$0#$b# Don't worry, I set them free before %pet could get to them.$3#$b#Poor thing..$2",
+
+            "{{ModId}}_Cooking_Day_1": "Hello, @! I have attempted to make you \"breakfast\". [204 203 226 265 456 457 MossSoup 649 207]I hope you enjoy it!$1",
+            "{{ModId}}_Cooking_Day_2": "",
+            "{{ModId}}_Cooking_Day_3": "",
+            "{{ModId}}_Cooking_Day_4": "",
+            "{{ModId}}_Cooking_Day_5": "",
+
+        //NIGHT
+            "{{ModId}}_Non-Rainy_Night_1": "I desperately want to be a good housemate for you, but it's so hard to know if I'm doing well... *groan* $s#$e#I have a difficult time understanding human expression. B... but... you're happy living with me?$u#$e#Okay!$7#$e#%Krobus smiles gleefully and hugs you.",
+            "{{ModId}}_Non-Rainy_Night_2": "Sometimes I pause and think of all that I've learned about love and care from you...$h#$b#I wish all my fellow shadowfolk could know this feeling.$l",
+            "{{ModId}}_Non-Rainy_Night_3": "Before I moved in, I used to wonder if humans and shadow people could really ever co-exist...$0#$b#I'm so glad you proved me right @! [769]$l#$e#Oh sorry @, I'm still shedding!$7",
+            "{{ModId}}_Non-Rainy_Night_4": "I cleaned all the bugs out of the house today... Sorry, I didn't save you any! *smack*$7",
+            "{{ModId}}_Non-Rainy_Night_5": "[769][769]I shed so much on arid days...$0#eb#Sometimes I wonder what it would be like to be a \"normal\"shadowfolk. In a physical sense, that is.#$b#If I had suffered no damage to my core, what would it be like? Would I be stronger? Would I feel differently? Would I have fled the caves at all?...$3",
+            "{{ModId}}_Non-Rainy_Night_Question":"Hello, @!$1#$b#%Krobus hugs you.$q {{ModId}}_bones_are_shitty/{{ModId}}_express_affection_regardless_of_form {{ModId}}_bones_question_fallback#*squish squish* You feel solid... sometimes I wish I could have bones and flesh instead of being wholly incorporeal...$2#$r {{ModId}}_bones_are_shitty 5 {{ModId}}_answer_bones_are_shitty#Incorporeality sounds really cool to me! And also Krobus, bones aren't the best. You get growing pains, and there's diseases like dislocation and breaking...#$r {{ModId}}_express_affection_regardless_of_form 20 {{ModId}}_answer_express_affection_regardless_of_form#Krobus, I love you exactly as you are.",
+                "{{ModId}}_bones_question_fallback":"*squish squish* Human anatomy is so strange... I suppose I'm still not used to corporeality.$0",
+                "{{ModId}}_answer_bones_are_shitty": "Well, I suppose it may be a matter of perspect- wait, BREAKING?!$3#$b#//\"@\".. one moment, I will find something.$2#$b#%Krobus scurries away, looking for ...something? Krobus returns with stuff that Krobus apparenly assumes will cure you of having bones. Well, it's the thought that counts.#$b#Please take these, @.[773][204][(F)JunimoCushion (H)50][(BC)107]$2",
+                "{{ModId}}_answer_express_affection_regardless_of_form": "Oh, @...$4#$b#%Krobus smiles widely and hugs you. It's odd hugging a being made of shadow, but it's very comforting. You sink into Krobus's embrace.#$b#I'm so glad to hear that, @.$l#$e#@...as much as you reassure me otherwise I still worry I may be an insufficient companion for you or that you may dislike me...$2#$b#I want to thank you for proving me wrong time and time again. You've never waved away my fears, you listen to me with thought and care. You treat even the most foolish of my concerns with patience, and I cherish you for all that you are. @.. I love you.$l",
+
+            "{{ModId}}_Cooking_Night_1": "I hope your day was satisfactory. I have attempted to make you \"dinner\". [204]I hope you enjoy it!$1",
+            "{{ModId}}_Cooking_Night_2": "",
+            "{{ModId}}_Cooking_Night_3": "",
+            "{{ModId}}_Cooking_Night_4": "",
+            "{{ModId}}_Cooking_Night_5": "",
+
+    //SPOUSE ROOM 1-5
+        "{{ModId}}_Room_1": "I hope the humidity here isn't bothersome to you. We both have to compromise in order to live together!$l",
+        "{{ModId}}_Room_2": "Hello, @!$1#$b#I'm just admiring my vase collection.$1#$b#The way the light shines through the glass is so mesmerizing...$u",
+        "{{ModId}}_Room_3": "Hello, @!$1#$b#It's so nice to see you again. Even though we may live together I still cherish the opportunity to speak with you every morning!$l",
+        "{{ModId}}_Room_4": "Hello, @! Have you seen my collection?$1#$b#I feel so safe with all my treasures and trinkets here.#$e#The void pendant is my favorite... @, it makes me so happy, living with you.$l.",
+        "{{ModId}}_Room_5": "It's so comfortable in here.. do you like it, @?",
+        "{{ModId}}_Room_6": "Hello, @! I was just praying to Yoba. This room is my shrine of sorts.$1",
+        "{{ModId}}_Room_7": "Hello, @. I was just admiring my collections, I've been collecting these sort of items since I left the caves.$0#$b#I view them as the tokens of my life in the sewers, and now my new life with you.$l",
+        "{{ModId}}_Room_8": "Do my belongings emit any sort of sensation that's unpleaseant to you? I am still only partially familair with the human sensory experience..$0",
+
+    //OTHER
+        "{{ModId}}_Sprit's_Eve_Question":"*sigh* I wish I could spend more time with you, @.$2$q imeanmaybe/fucknotheywouldnt spirit_eve_question_fallback#...if I showed up to the \"Sprit's Eve\" festival with you they'd put me in a cage...*whimper*$s#$r imeanmaybe -5 spirit_eve_question_home#They might, but you'll be safe at home.#$r fucknotheywouldnt -10 spirit_eve_question_violent#If anyone tried to do that to you I would tear them limb-from-limb.#$r fucknotheywouldnt 5 spirit_eve_question_keepyousafe#Rasmodius will be there too, and neither of us would let anything harm you.#$r fucknotheywouldnt 25 spirit_eve_question_nicehumans#Krobus, I understand your fear, but there are other kind and understanding humans out there. Species aside, there are kind folk everywhere, and I trust that my friends in town can keep you safe.",
+            "spirit_eve_question_fallback": "*whimper*$2",
+            "spirit_eve_question_home": "That's true, but.. I still feel upset.$2",
+            "spirit_eve_question_violent": "\"Oh.\"$3",
+            "spirit_eve_question_keepyousafe": "I'm glad to hear that, @.$1#$b#Still.. I do not feel comfortable attending, for a multiude of ...reasons.$a#$b#Your kind claim to be celebrating the magical, yet they take us hostge, trap them in a cage and display us as objects...$3#$e#I understand that I may not be unsafe, but I destest the hypocrisy of these traditions nonetheless.$a#$b#I only hope that your kind will become more accepting of us 'monsters' in the coming years.$2",
+            "spirit_eve_question_nicehumans": "You really think so?$3#$b#Hm...#$e#@, I genuinely trust your judgement, but I still feel uneasy... perhaps in another year I may accompany you, however I still do not feel comfortable in accompanying you today.$2#$b#I hope you understand, I simply cannot attend The Sprit's Eve Festival regardless of the villagers opinion of me.$2#$b#The festival claims to be celebrating the magical, yet they take us hostage, trap them in a cage and display us as objects.$a#$b#I only hope that your kind will become more accepting of us 'monsters' in the coming years.$2",
+        "{{ModId}}_Sprit's_Eve_Refusal":"Hello, @. I'm not feeling well today.$2#$b#*sigh*$2#$b#The Sprit's Eve Festival never ceases to irriate me. Your kind claim to be celebrating the magical, yet they take us hostge, trap them in a cage and display us as objects...$3#$e#I understand that many of the villagers know me, but I destest the hypocrisy of their traditions nonetheless, and I will continue to refuse any further invitations.$a#$b#I only hope that your kind will become more accepting of us 'monsters' in the coming years.$2",
+
+
+    //WEATHER WONDERS
+        //HEATWAVE
+        "{{ModId}}_WeatherWonders_Heatwave_Roommate_1":"*groan* there's so much sun...$9",
+        "{{ModId}}_WeatherWonders_Heatwave_Roommate_2":"Oh my, it's so bright...$9",
+        "{{ModId}}_WeatherWonders_Heatwave_Roommate_3":"",
+
+        "{{ModId}}_WeatherWonders_Heatwave_Sewer_1":"@, is there any weather disturbance occuring today? It seems much brighter and warmer than usual.$3",
+        "{{ModId}}_WeatherWonders_Heatwave_Sewer_2":"",
+        "{{ModId}}_WeatherWonders_Heatwave_Sewer_3":"",
+
+
+        //BLIZZARD
+        "{{ModId}}_WeatherWonders_Blizzard_Roommate_1":"@, look out the windows! There's so much snow outside!$3#$b#I remain endlessly grateful for the warmth of our house. And your \"heated blankets\"!$1#$b#They're very comfortable.$1#$e#Oh, and do make sure to be cautious on your ventures today! This may aid in increasing your body tempurature, if you come to need it.[236]$3#$b#Linus gave it to me!$1#$b#Oh, and if you go outside, please do make sure to check on him too!$3#$t {{ModId}}_blizzard_check_on_linus",
+        "{{ModId}}_WeatherWonders_Blizzard_Roommate_2":"Hello, @! It's on days like this that I'm glad we have windows. It is very bright outisde, but it looks quite enchanting nonetheless.$1#$b#I think I'll spend my day with %pet.$l#$b#Take care, okay @?$3",
+        "{{ModId}}_WeatherWonders_Blizzard_Roommate_3":"",
+
+        "{{ModId}}_WeatherWonders_Blizzard_Sewer_1":"*shudder*$3#$b#Oh, hello, @. It's really cold today...$2",
+        "{{ModId}}_WeatherWonders_Blizzard_Sewer_2":"",
+        "{{ModId}}_WeatherWonders_Blizzard_Sewer_3":"",
+
+        //DELUGE
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_1":"*contented sigh*$1#$b#Hello, @! It's so comfortably humid today!$1#$b#I love the rain...$l#$b#Oh, and please do make sure to take some caution today, with all the downpour!$3",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_2":"The sound of the rain is so soothing...$1#$b#It's odd to think that I might have never experienced that sound, if had I not left the caves. It feels so.. natural. So primal. I simply cannot envision a world without rain, and yet, that is how I lived most of my life...$0#$e#Oh @, I so am glad to have experienced rain, and love, and all of the other things I did not know were possible.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_3":"Hello, @. Please make sure to manage your body tempurature very carefully today; I understand that exposure to rain can significantly cool the body tempurature of humans, and it is quite rainy today.$0#$b#Perhaps this may assist if you happen suffer any damage to your health today.[773]$3#$e#...$1#$b#Oh @, you are so precious to me!$l#$b#%Krobus hugs you tightly.",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_4":"The sound of the rain is so soothing...$1#$b#It's odd to think; I might have never experienced that sound if had I not left the caves. It feels so.. natural. So primal. I simply cannot envision a world, a life without rain, and yet, that is how I lived for centuries...$0#$e#@, I so am glad to have experienced rain, and love, and all of the other things I did not know were possible.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_5":"Good morning @!$1#$b#I'm happy to see you doing well, I always get so worried when you're asleep!$3#$b#Us shadowfolk do not sleep, so I don't know how it should look...$2#$b#Anyways, I made you this, I believe humans enjoy this upon waking up. [614 614 614 614 614 614 395 395 395 395 395 395 395 253 253 253 614 614 614 614 614 614 395 395 395 395 395 395 395 253 253 253 StardropTea]$0#$e#I hope you enjoy it.$1#$b#%Krobus hugs you before continuing with Krobus's day.",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_6":"$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#Good morning, @. I went on a walk last night with Dwarf and they found this for you. [562 807 71 244 747 562 334 576 568 420]$1#$e#It was pretty fun!$7#$b#I hope you like the gift! $1#$b#I'm not sure if Dwarf was honest about what you like...$0|Good morning, @. I went out last night and found this for you. $1[305 308 203 795 397]$0#$e#It was rather unnerving leaving the house, but I hope you enjoy it!$1",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_7":"$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#As much as I try to be civilized and polite, I still have the urge to be mischievous sometimes...$6#$b#*giggles* I want to go mess with Shrimpy...$7#$b#Oh come now, I consider them a friend, we're allowed to irritate each other...$6#$b#..at least that's what I've read.$0#$e#Do you have any carp?$6#$e#...$7#$e#I'm joking!$6#$e#*giggles*$6|As much as I try to be civilized and polite, I still have the urge to be mischievous sometimes...$6#$b#*giggles* I want to go mess with Shrimpy...$6#$b#I probably shouldn't go to the caves though...$2",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_8":"When I gaze up at the dark clouds, I often wonder if there are \"cloud-folk\" who live up there... Shadowfolk exist after all.$3#$b#...Most of all, I hope there are more relationships like ours out there, @. You are truly special to me, and you give me hope for the future of all beings.$l#$e#@, I value our connection above all else.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_9":"It is said that my people came here long ago, when a great storm summoned spirits from the void to cross into the physical plane as living shadow.$0#$b#*sigh* I wish I could learn more, but there is no way for me to contact my people...$s#$e#Well, I suppose they are my kind, but caring folk like you are my genuine people, @.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_10":"I tend to be quite philosophical on rainy days. Something about this weather reminds me of my time in the sewers, my old refuge.",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_11":"*contented sigh*$1#$b#Hello, @! It's so comfortably humid today!$1#$b#I love the rain...$l#$b#Oh, and please do make sure to take some caution today, with all the downpour!$3",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_12":"The sound of the rain is so soothing...$1#$b#It's odd to think that I might have never experienced that sound, if had I not left the caves. It feels so.. natural. So primal. I simply cannot envision a world without rain, and yet, that is how I lived most of my life...$0#$e#Oh @, I so am glad to have experienced rain, and love, and all of the other things I did not know were possible.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_13":"Hello, @. Please make sure to manage your body tempurature very carefully today; I understand that exposure to rain can significantly cool the body tempurature of humans, and it is quite rainy today.$0#$b#Perhaps this may assist if you happen suffer any damage to your health today.[773]$3#$e#...$1#$b#Oh @, you are so precious to me!$l#$b#%Krobus hugs you tightly.",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_14":"The sound of the rain is so soothing...$1#$b#It's odd to think; I might have never experienced that sound if had I not left the caves. It feels so.. natural. So primal. I simply cannot envision a world, a life without rain, and yet, that is how I lived for centuries...$0#$e#@, I so am glad to have experienced rain, and love, and all of the other things I did not know were possible.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_15":"When I gaze up at the dark clouds, I often wonder if there are \"cloud-folk\" who live up there... Shadowfolk exist after all.$3#$b#...Most of all, I hope there are more relationships like ours out there, @. You are truly special to me, and you give me hope for the future of all beings.$l#$e#@, I value our connection above all else.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_16":"It is said that my people came here long ago, when a great storm summoned spirits from the void to cross into the physical plane as living shadow.$0#$b#*sigh* I wish I could learn more, but there is no way for me to contact my people...$s#$e#Well, I suppose they are my kind, but caring folk like you are my genuine people, @.$l",
+        "{{ModId}}_WeatherWonders_Deluge_Roommate_17":"I tend to be quite philosophical on rainy days. Something about this weather reminds me of my time in the sewers, my old refuge.",
+
+
+        "{{ModId}}_WeatherWonders_Deluge_Sewer_1":"*contented sigh*$1#$b#Hello, @! It's so comfortably humid today!$1",
+        "{{ModId}}_WeatherWonders_Deluge_Sewer_2":"",
+        "{{ModId}}_WeatherWonders_Deluge_Sewer_3":"",
+
+        //DRIZZLE
+        "{{ModId}}_WeatherWonders_Drizzle_Roommate_1":"",
+        "{{ModId}}_WeatherWonders_Drizzle_Roommate_2":"",
+        "{{ModId}}_WeatherWonders_Drizzle_Roommate_3":"",
+
+        "{{ModId}}_WeatherWonders_Drizzle_Sewer_1":"",
+        "{{ModId}}_WeatherWonders_Drizzle_Sewer_2":"",
+        "{{ModId}}_WeatherWonders_Drizzle_Sewer_3":"",
+
+        //DRY LIGHTNING
+        "{{ModId}}_WeatherWonders_DryLightning_Roommate_1":"",
+        "{{ModId}}_WeatherWonders_DryLightning_Roommate_2":"",
+        "{{ModId}}_WeatherWonders_DryLightning_Roommate_3":"",
+
+        "{{ModId}}_WeatherWonders_DryLightning_Sewer_1":"",
+        "{{ModId}}_WeatherWonders_DryLightning_Sewer_2":"",
+        "{{ModId}}_WeatherWonders_DryLightning_Sewer_3":"",
+
+
+    //WEATHER BG
+        "{{ModId}}_BG_Storm_Roomate_1":"",
+        "{{ModId}}_BG_Storm_Roomate_2":"",
+        "{{ModId}}_BG_Storm_Roomate_3":"",
+
+        "{{ModId}}_BG_Storm_Sewer_1":"",
+        "{{ModId}}_BG_Storm_Sewer_2":"",
+        "{{ModId}}_BG_Storm_Sewer_3":"",
+
+Hailstorm Mist
+]
+
+
+/////////////////////
+[//ROOMMATE; FRIDAY//     
+/////////////////////
+
+    //FRIDAY ROOM 1-6
+        "{{ModId}}_Friday_Room_1": "%Krobus is poring over a small glass vase, lifting it in Krobus's translucent hands, rotating the vase. Krobus marvels at the way the curved glass warps the light, casting rainbows upon the floor.",
+        "{{ModId}}_Friday_Room_2": "%Krobus is holding his void pendant, looking at it like it was worth everything to Krobus. Krobus notices you looking, and excitedly runs over to hug you, in a way that assured you that the pendant \"was\" worth everything to Krobus",
+        "{{ModId}}_Friday_Room_3": "%Krobus looks very content in his room, smiling happily while evaluating all of Krobus's treasures.",
+        "{{ModId}}_Friday_Room_4": "%Krobus looks marvels at his collection, looking up when you approach and shuffling excitedly upon seeing you. Krobus sets down Krobus's vase and hugs you.",
+        "{{ModId}}_Friday_Room_5": "%Krobus looks concentrated, standing over Krobus's altar. You decide not to disrupt Krobus's praying.",
+        "{{ModId}}_Friday_Room_6": "%Krobus looks very calm, standing over Krobus's shrine to Yoba. You're not particularly religious, but you smile, proud of Krobus's devotion to what Krobus views as important.",
+
+
+    // FRIDAY NON-RAINY 1-4 
+        //MORNING
+            "{{ModId}}_Friday_NON_Rainy_Morning_1": "%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]",
+            "{{ModId}}_Friday_NON_Rainy_Morning_2": "%Krobus looks wan, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]",
+            "{{ModId}}_Friday_NON_Rainy_Morning_3": "%Krobus is excited, enthusiastically playing with %pet. Krobus seems very delighted at %pet's attention.",
+            "{{ModId}}_Friday_NON_Rainy_Morning_4": "%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773] You smile and hug Krobus to express your gratitude. Krobus looks delighted!",
+        
+        //NIGHT    
+            "{{ModId}}_Friday_NON_Rainy_Night_1": "",
+            "{{ModId}}_Friday_NON_Rainy_Night_2": "",
+            "{{ModId}}_Friday_NON_Rainy_Night_3": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_NON_Rainy_Night_4": "%Krobus smiles and hugs you.",
+
+    //FRIDAY RAINY 1-4
+        //MORNING
+            "{{ModId}}_Friday_Rainy_Morning_1": "%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]",
+            "{{ModId}}_Friday_Rainy_Morning_2": "%Krobus looks tired, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]",
+            "{{ModId}}_Friday_Rainy_Morning_3": "%Krobus looks content, gazing out of the window dreamily.",
+            "{{ModId}}_Friday_Rainy_Morning_4": "%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773] You smile and hug Krobus to express your gratitude. Krobus looks delighted!",
+
+        //NIGHT    
+            "{{ModId}}_Friday_Rainy_Night_1": "%Krobus seems very relieved by your presence. Krobus does tend to worry quite a lot about you.",
+            "{{ModId}}_Friday_Rainy_Night_2": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_Rainy_Night_3": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_Rainy_Night_4": "%Krobus smiles and hugs you.",
+
+
+    //FRIDAY AFFECTION
+        //GOOD
+            "{{ModId}}_Friday_Good_1": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_Good_2": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_Good_3": "%Krobus smiles and hugs you.",
+            "{{ModId}}_Friday_Good_4": "%Krobus smiles and hugs you.",
+
+        //NEUTRAL
+            "{{ModId}}_Friday_Neutral_1": "",
+            "{{ModId}}_Friday_Neutral_2": "",
+            "{{ModId}}_Friday_Neutral_3": "",
+            "{{ModId}}_Friday_Neutral_4": "",
+
+        //BAD
+            "{{ModId}}_Friday_Bad_1": "%Krobus looks pained.",
+            "{{ModId}}_Friday_Bad_2": "%Krobus lies on the floor, unmoving and lethargic, like a thick, shadowy puddle.",
+            "{{ModId}}_Friday_Bad_3": "%Krobus looks miserable.",
+            "{{ModId}}_Friday_Bad_4": "*whimper*$2",
+
+
+    //FRIDAY OUTDOOR
+        "{{ModId}}_Friday_Outdoor_1":"",
+        "{{ModId}}_Friday_Outdoor_2":"",
+        "{{ModId}}_Friday_Outdoor_3":"",
+        "{{ModId}}_Friday_Outdoor_4":"",
+]
+
+
+
+
+
+        //DIVORCE
+        "Krobus.Divorce.1": "...*whimper*...$2",
+        "Krobus.Divorce.2": "Please do not speak to me again, @. I miss you enough already...$2",
+        "Krobus.Divorce.3": "...$2",
+        "Krobus.Divorce.4": "...$2",
+        "Krobus.Divorce.5": "...$2",
+    //MONSTERS IN ROOM    
+        "Krobus.Monsters.1":"Hello slime! @, look! My kind is here!",
+        "Krobus.Monsters.2":"Hello slime! @, look! My kind is here!",
+        "Krobus.Monsters.3":"Hello slime! @, look! My kind is here!",
+        "Krobus.Monsters.4":"Hello slime! @, look! My kind is here!",
+        "Krobus.Monsters.5":"Hello slime! @, look! My kind is here!",
+   
+   
+   
+   
+    //GIFT DIALOUGE
+    //BUG STEAK MARRIED
+    "Bug.Steak.Gifted.Roomate.0": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![456] It was my main source of nutrients when I lived in the sewers. $1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.1": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![204] I learned how to create it using the instructions of the \"sauce monarch human\" on the \"television\".$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.2": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![203] It's a common food item among us shadowfolk.$1#$e#Do you like it?$3",
+    "Bug.Steak.Gifted.Roomate.3": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![227] Linus showed me how to make it.$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.4": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![226] I once saw the townsperson with wheels making it during the winter, I'm assuming it's popular amongst humans.$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.5": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![457] It was my main source of nutrients when I lived in the sewers. $1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.6": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![456] It was my main source of nutrients when I lived in the sewers. $1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.7": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![204] I learned how to create it using the instructions of the \"sauce monarch human\" on the \"television\".$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.8": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![203] It's a common food item among us shadowfolk.$1#$e#Do you like it?$3",
+    "Bug.Steak.Gifted.Roomate.9": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![227] Linus showed me how to make it.$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.10": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![226] I once saw the townsperson with wheels making it during the winter, I'm assuming it's popular amongst humans.$1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.11": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![457] It was my main source of nutrients when I lived in the sewers. $1#$e#Is it satisfactory?$3",
+    "Bug.Steak.Gifted.Roomate.12": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I made you this![203] It's a common food item among us shadowfolk.$1#$e#Do you like it?$3",
+    "Bug.Steak.Gifted.Roomate.13": "Thank you @, I was feeling hungry! *munch* $1#$e#Oh! That reminds me, I procured this for you![279] It's a rare delicacy among us shadowfolk.$1#$e#Do you like it?$3",
+    "Bug.Steak.Gifted.Roomate.14": "Thank you @, I was feeling hungry! *munch* $1",
+    "Bug.Steak.Gifted.Roomate.15": "Thank you @, I was feeling hungry! *munch* $1",
+    //OTHER
+    "": "",
+   //CFE DIALOUGE TO STEAL AS BASE
+
+"CFE_Krobus_rainy_2": "Rain is truly a lifegiving force. Give thanks to Yoba today.",
+  "CFE_Krobus_rainy_3": "Today might be a good day for me to poke my head outside for a few minutes.#$e#...If the coast is clear, that is.",
+  "CFE_Krobus_Tue4": "There is a plant that grows in the springtime. Humans describe it as \"spicy,\" but for my kind, we find it...#$b#How shall I put it? It keeps the evil instincts at bay.",
+  "CFE_Krobus_Tue2": "So you farm for a living? I occasionally carry a product that might help you. Check back on Friday.",
+
+
+  "CFE_Krobus_Thu8": "I have observed your kind for many years. It has given me ample opportunity to learn your language.#$e#However, you are one of the first humans with whom I have had consistent interaction.$h",
+  "CFE_Krobus_Sun6": "I have safeguarded the Return Scepter for many years. Its origin predates both our species, significantly.#$e#As such, I hope you understand why I cannot sell it for an ordinary price.",
+
+  "CFE_Krobus_Married_RainyNight_2": "It's a bit spooky out there, isn't it? I can understand it from a human's perspective these days, at least a little.",
+  "CFE_Krobus_Married_RainyNight_6": "In a hundred years, who knows? Maybe our living arrangement will be quite normal.",
+  "CFE_Krobus_Married_Non-RainyDay_6": "Good morning, @. I went out before the sun and found this for you. [305 308 203 795 397]I hope it's not too strange.",
+  "CFE_Krobus_Married_Non-RainyDay_7": "Don't worry, I won't be bored today. A human's desire for novelty is much higher than mine.",
+
+  "CFE_Krobus_Married_Non-RainyDay_10": "Ooh, there's so much sun! ...But I can tolerate it a bit better than I used to.",
+
+  "CFE_Krobus_Married_Non-RainyDay_12": "Good morning. Say hi to all the animals for me.",
+
+  "CFE_Krobus_Married_Non-RainyNight_8": "I looked out the window today and I saw %pet running around. So cute!$7",
+
+  "CFE_Krobus_Married_spring6": "Humans and shadow beings have such different traditions in worshipping Yoba. And yet, Yoba created both our species.#$e#Perhaps Yoba is much more complex than most of us realize.",
+  "CFE_Krobus_Married_spring15": "I just want to live my life doing right by Yoba. I never wanted to be an agent of chaos.$s#$e#But then I think... isn't it Yoba who made the shadow brutes? And made me the way I am? Sometimes it's all so confusing.$3#$e#Then again... Yoba brought you to me, and I like living here with you.#$b#And that isn't so complicated, is it?$7",
+
+   
+   
+   
+   
+   
+   
+    //OTHER MOD EDITS
+    //EDIT TO MORE LIVELY SEWER OVERHAUL
+    "i18n_key_22": "What was that loud noise?$u#Oh, you opened the mechanism downstairs?$u#...#Oh... I promised I wouldn't tell anyone what it's for...$s#Well...the sewers have more secrets than just me down here.$u#I cannot tell you where it is.#But you are free to seek for it yourself.$h",
+    "i18n_key_23": "@! You found the entrance to the secret room? That's great! $u#And yes, it cannot be opened...#...Not without the special artifact.$7#I can't tell you what's down there...#All I can tell is that that place was sealed for a reason. Please be careful, okay @?$3",
+    "i18n_key_24": "Oh @, are you alright?! Please heed my warnings @, I don't want you to get hurt.$2#Did you met the creatures below? You have to be cautious with such things, but I can assure you that this is not a dead-end.$u#...Don't tell anyone I'm helping you with this... *giggle*$7#",
+    "i18n_key_25": "Void serpents cannot comprehend any language made with words.#...If you want to communicate with them, you need to speak the language of sound.#Oh, how I know?$u#@... where else could I obtain void eggs from?$7#",
+    "i18n_key_26": "Hello, @!$h#Is there a human festival today? I can hear quite a lot from the sewers, and the townsfolk seem particularly active.",
+    "i18n_key_28": "There are some glowing creatures lurking in sewer waters today.#I thing they are magical creatures.$u#...The sewers are not the right place for them to be though.",
+    "i18n_key_29": "Lot's of unknown noises and smells from up there today...#I specifically like the smells.$h#I'm waiting for the dark for me to venture on the surface.",
+    "i18n_key_30": "I know today is an important date for you humans. You dress up in the images of your fears and pay homage to the darkness.$u#For Shadow People this day is special too - we pay respect to our own fear of sunlight.",
+    "i18n_key_31": "Today I hear some preparations are happening up there again...$u#I would like to watch your sacred rituals more closely one day.",
+    //EDIT TO 'SPOUSES REACT TO PLAYER DEATH' MOD 
+    "PlayerKilled.Krobus.Fri1": "Krobus seems shocked by Krobus's own voice... that's right! Today is Friday.",
+    "PlayerKilled.Krobus.Fri2": "Krobus doesn't say anything, but it looks like there's a lot weighing on Krobus's mind. I'd better be more careful next time, if only for Krobus's sake.",
+    "PlayerKilled.Krobus.01": "@!!$l#$b#It's okay, @. I don't think anyone saw me sneak in here.$3#$b#*whimper* ...what happened? I heard you'd been badly hurt and I felt worry in my soul for you...$2",
+    "PlayerKilled.Krobus.02": "Bless Yoba for keeping you safe... I don't know what I would have done if you'd have left me, @... $2#$b#*whimper*$2#$b#Oh, @...#$b#You understand that I need you, right? I could not bear to live without you.$2#$b#You gave me everything, @. Companionship, a home.. love. You must recognize how much I would hurt to lose you... right?$2",
+    "PlayerKilled.Krobus.03": "I will not stay for very long, in case the human assisting you returns, but I'm so relieved to know that you are safe.#$b#...@... please do not forget that I cherish you.$3#$b#Us shadowfolk are not mortal, but you humans are, and you can die, at any time, without warning, and that terrifies me more than anything.$2#$b#Oh, @, my home is with you, always. May Yoba watch over you, forever.$l",
+    "PlayerKilled.Krobus.04": "@, are you-#$b#!!!$3",
+    "PlayerKilled.Krobus.05": "...$2#$b#",
+    "PlayerKilled.Krobus.06": "*whimper*$2#$b#.......$2",
+    "MineKilled.Krobus.01": "@!!! Oh, I'm so glad you're awake, I was so worried about you!!$u#$b#Are you feeling okay? Can I help you? I might be able to carry you to the human doctor-$u#$b#You're alright? Oh, thank Yoba!$1#$b#Us shadowfolk are not mortal, but you humans are, and I thought..you...*whimper*$2#$b#I am infinitely relieved you are alright @. You are everything to me.$l#$b#*sigh*#$b#...",
+    "MineKilled.Krobus.02": "Oh, how I found you here?$3#$b#Well, us shadowfolk are intrinsically connected with our communities and with those whom we care for, and as such we are able sense the position of one another. $0#$b#It was more difficult to trace your position given that you are human, but I was able to, and I found you unconcious.$3#$b#...I went numb seeing your limp body...$2#$b#*sigh* ...I don't know what I would do if I had lost you, @.$2",
+    "MineKilled.Krobus.03": "But you're alright, so it's okay.#$b#Oh @, I remain endlessly grateful that you are safe.$1#$b#To tell you the truth, I don't feel safe here, in the mines. It reminds me of my past...$2#$b#But it was worth it all to help you, @.$l#$b#..!$3#$b#I feel odd... I think this sensation may be \"love\"![769]$l#$b#...and shedding.$7",
+    "MineKilled.Krobus.04": "Are you able to stand up?$u#$b#Oh, good!$1#$b#Let me help you...$1",
+    "MineKilled.Krobus.05": "...!$1",
+    "MineKilled.Krobus.06": "...$s#$b#...!$u",
+    "MineKilled.Krobus.07": "Oh, that's right. Today is Friday, so Krobus can't answer any of my questions.",
+    "MineKilled.Krobus.08": "I must have gotten knocked out... Krobus seems very worried, but I don't feel too bad. We should return home.",
+    "HospitalEnd.Krobus.01": "@! I am so relieved you are here and safe.$l#$b#You've had a bad day, haven't you?$2#$b#...$3#$b#Oh @...$2#$b#Krobus hugs you as tightly as Krobus's shadow form allows, before realizing you may be in pain and quickly releasing you.",
+    "HospitalEnd.Krobus.02": "Um, also @, I've procured you some food so that you may recover your energy. I hope it is satisfactory.[16 20 203 257 305 456 457]$3#$b#...@..are you okay? I'm apologize for hugging you so forcibly, I should have-$3#$b#$You cut Krobus off, reassuring Krobus that you feel fine and that Krobus did not hurt you.#$b#Oh phew! I'm just so glad you're alright, @.$1",
+    "HospitalEnd.Krobus.03": "...!$1",
+    "HospitalEnd.Krobus.04": "...$2#$b#......![16 20 203 257 305 456 457]$1",
+    "MineEnd.Krobus.01": "Oh @, I am so relieved that you are home! I was so worried for you.. please be cautious in the mines.",
+    "MineEnd.Krobus.02": "Do not worry about me, I have faith that Yoba will protect and guide you in your ventures. But most of all, I have faith in you.$l#$b#I've procured you some food so that you may recover your energy. I hope it is satisfactory.[16 210 215 223 228 232 243 403 406 613 618 636 651]$1",
+    "MineEnd.Krobus.03": "!$1",
+    "MineEnd.Krobus.04": "...$2#$b#...![16 210 215 223 228 232 243 403 406 613 618 636 651]$3",
+    "IslandEnd.Krobus.01": "Hello, @!-$1#$b#!!$3#$b#Are you alright?! Your clothing is burnt and you don't look very well...$2#$b#Oh, you were in a volcano?$3#$b#That sounds dangerous... but I trust you to keep yourself safe.$1#$b#I would like to see it with you someday, @. Nonetheless, I urge you to be careful while adventuring.",
+    "IslandEnd.Krobus.02": "...!$3#$b#...",
+}
