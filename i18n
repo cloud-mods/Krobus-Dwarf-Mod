@@ -264,13 +264,13 @@ Do you like the darkness, @?
 ]
 
 
-/////////////////////
-[//ROOMMATE; FRIDAY//     
-/////////////////////
+////////////////////
+//ROOMMATE; FRIDAY//     
+////////////////////
 
     //FRIDAY ROOM 1-6
         "{{ModId}}_Friday_Room_1": "%Krobus is poring over a small glass vase, lifting it in Krobus's translucent hands, rotating the vase. Krobus marvels at the way the curved glass warps the light, casting rainbows upon the floor.",
-        "{{ModId}}_Friday_Room_2": "%Krobus is holding his void pendant, looking at it like it was worth everything to Krobus. Krobus notices you looking, and excitedly runs over to hug you, in a way that assured you that the pendant \"was\" worth everything to Krobus",
+        "{{ModId}}_Friday_Room_2": "%Krobus is holding his void pendant, looking at it like it was worth everything to Krobus. Krobus notices you looking, and excitedly runs over to hug you, in a way that assured you that the pendant \"is\" worth everything to Krobus",
         "{{ModId}}_Friday_Room_3": "%Krobus looks very content in his room, smiling happily while evaluating all of Krobus's treasures.",
         "{{ModId}}_Friday_Room_4": "%Krobus looks marvels at his collection, looking up when you approach and shuffling excitedly upon seeing you. Krobus sets down Krobus's vase and hugs you.",
         "{{ModId}}_Friday_Room_5": "%Krobus looks concentrated, standing over Krobus's altar. You decide not to disrupt Krobus's praying.",
@@ -278,59 +278,58 @@ Do you like the darkness, @?
 
 
     // FRIDAY Roomate_Generic 1-4 
-        //MORNING
-            "{{ModId}}_Friday_NON_Rainy_Morning_1": "%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]",
-            "{{ModId}}_Friday_NON_Rainy_Morning_2": "%Krobus looks wan, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]",
-            "{{ModId}}_Friday_NON_Rainy_Morning_3": "%Krobus is excited, enthusiastically playing with %pet. Krobus seems very delighted at %pet's attention.",
-            "{{ModId}}_Friday_NON_Rainy_Morning_4": "%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773] You smile and hug Krobus to express your gratitude. Krobus looks delighted!",
-        
-        //NIGHT    
-            "{{ModId}}_Friday_NON_Rainy_Night_1": "",
-            "{{ModId}}_Friday_NON_Rainy_Night_2": "",
-            "{{ModId}}_Friday_NON_Rainy_Night_3": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_NON_Rainy_Night_4": "%Krobus smiles and hugs you.",
+        "{{ModId}}_Friday_Weather_1": "$query WEATHER Default Rain Storm Snow#%Krobus looks content, gazing out of the window dreamily.",
+        "{{ModId}}_Friday_Weather_2": "",
+        "{{ModId}}_Friday_Weather_3": "",
+        "{{ModId}}_Friday_Weather_4": "",
+        "{{ModId}}_Friday_Weather_5": "",
+        "{{ModId}}_Friday_Weather_6": "",
 
-    //FRIDAY RAINY 1-4
-        //MORNING
-            "{{ModId}}_Friday_Rainy_Morning_1": "%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]",
-            "{{ModId}}_Friday_Rainy_Morning_2": "%Krobus looks tired, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]",
-            "{{ModId}}_Friday_Rainy_Morning_3": "%Krobus looks content, gazing out of the window dreamily.",
-            "{{ModId}}_Friday_Rainy_Morning_4": "%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773] You smile and hug Krobus to express your gratitude. Krobus looks delighted!",
+        "{{ModId}}_Friday_Affection_1": "$query PLAYER_HEARTS current Krobus 0 9#%Krobus looks miserable.|%Krobus seems to be deep in thought. You decide not to disturb Krobus.",
+        "{{ModId}}_Friday_Affection_2": "",
+        "{{ModId}}_Friday_Affection_3": "",
+        "{{ModId}}_Friday_Affection_4": "",
+        "{{ModId}}_Friday_Affection_5": "",
+        "{{ModId}}_Friday_Affection_6": "",
 
-        //NIGHT    
-            "{{ModId}}_Friday_Rainy_Night_1": "%Krobus seems very relieved by your presence. Krobus does tend to worry quite a lot about you.",
-            "{{ModId}}_Friday_Rainy_Night_2": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_Rainy_Night_3": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_Rainy_Night_4": "%Krobus smiles and hugs you.",
+        "{{ModId}}_Friday_Time_1": "",
+        "{{ModId}}_Friday_Time_2": "",
+        "{{ModId}}_Friday_Time_3": "",
+        "{{ModId}}_Friday_Time_4": "",
+        "{{ModId}}_Friday_Time_5": "",
+        "{{ModId}}_Friday_Time_6": "",
 
+        "{{ModId}}_Friday_Season_1": "",
+        "{{ModId}}_Friday_Season_2": "",
+        "{{ModId}}_Friday_Season_3": "",
+        "{{ModId}}_Friday_Season_4": "",
+        "{{ModId}}_Friday_Season_5": "",
+        "{{ModId}}_Friday_Season_6": "",
 
-    //FRIDAY AFFECTION
-        //GOOD
-            "{{ModId}}_Friday_Good_1": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_Good_2": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_Good_3": "%Krobus smiles and hugs you.",
-            "{{ModId}}_Friday_Good_4": "%Krobus smiles and hugs you.",
+        "{{ModId}}_Friday_Dwarf_1": "$query PLAYER_NPC_RELATIONSHIP current Dwarf Roommate#%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]",
+        "{{ModId}}_Friday_Dwarf_2": "",
+        "{{ModId}}_Friday_Dwarf_3": "",
+        "{{ModId}}_Friday_Dwarf_4": "",
+        "{{ModId}}_Friday_Dwarf_5": "",
+        "{{ModId}}_Friday_Dwarf_6": "",
 
-        //NEUTRAL
-            "{{ModId}}_Friday_Neutral_1": "",
-            "{{ModId}}_Friday_Neutral_2": "",
-            "{{ModId}}_Friday_Neutral_3": "",
-            "{{ModId}}_Friday_Neutral_4": "",
+        "{{ModId}}_Friday_1": "%Krobus looks wan, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]",
+        "{{ModId}}_Friday_2": "%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773]#$b#%You smile and hug Krobus to express your gratitude. Krobus looks delighted!",
+        "{{ModId}}_Friday_3": "",
+        "{{ModId}}_Friday_4": "",
+        "{{ModId}}_Friday_5": "",
+        "{{ModId}}_Friday_6": "",
 
-        //BAD
-            "{{ModId}}_Friday_Bad_1": "%Krobus looks pained.",
-            "{{ModId}}_Friday_Bad_2": "%Krobus lies on the floor, unmoving and lethargic, like a thick, shadowy puddle.",
-            "{{ModId}}_Friday_Bad_3": "%Krobus looks miserable.",
-            "{{ModId}}_Friday_Bad_4": "*whimper*$2",
-
-
-    //FRIDAY OUTDOOR
-        "{{ModId}}_Friday_Outdoor_1":"",
-        "{{ModId}}_Friday_Outdoor_2":"",
-        "{{ModId}}_Friday_Outdoor_3":"",
-        "{{ModId}}_Friday_Outdoor_4":"",
-]
-
+//LIST OF LINES
+//%Krobus seems to be deep in thought. You decide not to disturb Krobus.
+//%Krobus looks miserable.
+//%It seems Krobus may have gotten up to some mischief last night, judging by Krobus's constant giggling. You give Krobus a questioning look, and you can't help but bust up laughing when Krobus hands you a pair of the Mayor's 'shorts'.[789]
+//%Krobus looks wan, perhaps Krobus went adventuring last night? Krobus seems to sense your question and nods, handing you an \"Iridium Bar\" and an \"Ancient Seed\".[499][337]
+//%Krobus smiles warmly at you, shuffling around excitedly upon seeing you. Krobus gives you a \"Life Elixir\", looking intently at you to see your reaction.[773]#$b#%You smile and hug Krobus to express your gratitude. Krobus looks delighted!
+//%Krobus looks content, gazing out of the window dreamily.
+//
+//
+//
 
 
 
