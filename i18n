@@ -141,7 +141,7 @@ Do you like the darkness, @?
     //AFFECTION
         //GOOD
             "{{ModId}}_Good_1": "I thank Yoba every day for leading me to you, @.$l",
-            "{{ModId}}_Good_2": "Hello @!$h#$b#It's always nice seeing you.$1#$e#Please be careful on your escapades today, @. I comprehend your desire for adventure, but I worry about you a great deal when you are gone.$2#$e#Never forget that I cherish you, @.$l",
+            "{{ModId}}_Good_2": "Hello @!$h#$b#It's always nice seeing you.$1#$e#Please be careful on your escapades today, @. I comprehend your desire for adventure, but I worry about you a great deal when you are gone.$2#$e#Do not forget that I cherish you, @.$l",
             "{{ModId}}_Good_3": "I feel a odd sensation in my body... is this... 'platonic love'?[769][769][769][769][769][769][769][769][769][769]$l#$b#... Oh, wait... I'm shedding... [769][769][769]$s#$b#On second thought, perhaps it might be both![769]$h",
             "{{ModId}}_Good_4": "I won't ever grow old, but you will and then eventually you'll... die...$s#$b#Sometimes it makes me sad... but @, being able to live with you now is worth all the sadness in this world.$l",
             "{{ModId}}_Good_5": "@, you bring me so much hope for the future of our species.$l",
@@ -157,6 +157,8 @@ Do you like the darkness, @?
             "{{ModId}}_Good_15": "@... I think I like being incorporeal now!$7#$b#I would like to thank you for that, @. I did not think I could ever feel so comfortable with my being, but you proved me wrong!$l#$e#%Krobus hugs you tightly.",
             "{{ModId}}_Good_Meet": "@... I think I want to meet some other humans soon.$l#$b#It will be frightening, but it is my duty as \"bridge-crosser\" to try. I thank you for giving me this confidence, @.$1#$t {{ModId}}_krobusmeetsvillagers 99999999999999",
             "{{ModId}}_Good_Question": "",
+
+            "{{ModId}}_Good_tbd": "Hello- Oh @, you don't look very well.$3",
 
             //NEUTRAL
             "{{ModId}}_Neutral_1": "I won't ever grow old, but you will. Sometimes it makes me sad... but that's okay.$s",
