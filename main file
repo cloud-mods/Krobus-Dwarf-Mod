@@ -12,10 +12,10 @@
         // MysticSyrup is liked, Krobus likes the jar and think the liquid looks cool
         // 170 (broken glasses) are neutral, Krobus likes learning about how they work and theres a random chance for Krobus to comment that looking through the lens improves his vision
 
-        // LOVES: -102, -103 (all books), 16 (horseradish), 72 (diamond), 94 (sprit torch), 118 (glass shards), 276 (pumpkin), 305 (void egg), 308 (void mayo), 337 (iriduim bar), 394 (rainbow shell), 419 (vinegar), 564 (opal), (565) fire opal, (575) obsidian, (577) fairy stone, (578) star shards, 681 (rain totem), (746) jack-o-lantern, 797 (pearl),
+        // LOVES: -102, -103 (all books), 16 (horseradish), 72 (diamond), 74 (prismatic shard), 94 (sprit torch), 118 (glass shards), 276 (pumpkin), 305 (void egg), 308 (void mayo), 337 (iriduim bar), 394 (rainbow shell), 419 (vinegar), 564 (opal), (565) fire opal, (575) obsidian, (577) fairy stone, (578) star shards, 681 (rain totem), (746) jack-o-lantern, 797 (pearl),
         // LIKES: -2 (all gems), -12 (all minerals), 80 (quartz), 96 97 98 99 (dwarf scrolls), 172 (soggy newspaper), 203 (strange bun), 265 (seafoam pudding), 336 (gold bar), 414 (crystal fruit), 749 (omni-geode), 874 (bug steak) 879 (monster musk), MysticSyrup, 
         // NEUTRAL: -5 (eggs), -6 (milk), -15 (metals), -75 (vegetable), -79 (fruit), -80 (flowers), -81 (greens), 18 (daffodil) 22 (dandelion), 84 (frozen tear), 170 (broken glasses) 395 (coffee), 684 (bug meat)
-        // DISLIKE: -4 (fish), -7 (food), -25 (ingredients), -26 (artisan goods), , 346 (beer), 348 (wine),   
+        // DISLIKE: -4 (fish), -7 (food), -25 (ingredients), -26 (artisan goods) , 346 (beer), 348 (wine),   
         // HATE: -27 (syrups), 340 (honey), 459 (mead), 873 (pina colada), 903 (ginger ale)
 
         // REJECT: -19 (category_fertilizer), -74 (category_seeds) 
@@ -29,7 +29,7 @@
             "Entries": {
                 "Krobus": //the following part should have the enters removed
         "This is amazing! I very much appreciate your generosity, @./-102, -103 16 72 74 94 118 276 305 308 337 394 419 564 565 575 577 578 681 746 797 
-        /Thank you very much./
+        /Thank you very much./-2 -12 80 96 97 98 99 172 203 265 336 414 749 874 879 MysticSyrup
         /Humans have... interesting tastes./-4 -7 -25 -26 346 346 348
         /Oh... Um. I guess I'll accept it./-27 340 459 873 903 
         /Thank you./-5 -6 -15 -75 -79 -80 -81 18 22 84 170 395 684/",
@@ -142,7 +142,7 @@
                 "AcceptGift_(0)16": "$query PLAYER_HEARTS 4, PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_hasHadHorseradish#More \"horseradish\"! Thank you @!$1|Oh, a \"horseradish\", thank you, @. These are my favorite!$1#$t {{ModId}}_hasHadHorseradish 999999999",
                 "AcceptGift_(O)74": "%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1",
                 "AcceptGift_(O)684": "Thank you, @! This will make a delicious meal once I am able to obtain a sufficient amount! $1",
-                "AcceptGift_(O)874": "Thank you, I was feeling hungry! *munch* $1",
+                "AcceptGift_(O)874": "Thank you, I was feeling hungry! *munch* $1"
             }
         }
         ////////////////////////////////////////////
@@ -174,7 +174,7 @@
                 "HasMod |contains=Spiderbuttons.BETAS": true
             },
             "Entries": {
-                "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0", //coffee, caffine absolutely destroys krobus
+                "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 5", //coffee, caffine absolutely destroys krobus
             }
         }
         /////////////////////////////////////////////////////
@@ -188,12 +188,11 @@
                 "HasMod |contains=Spiderbuttons.BETAS": false
             },
             "Entries": {
-                "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7", //coffee, caffine absolutely destroys krobus
+                "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#AddFriendshipPoints Krobus 5", //coffee, caffine absolutely destroys krobus
             }
         }
 
 
-WeatherForTomorrow <ContextID> <Weather>
     //////////////////////////////
      //KROBUS DIALOG NON-ROOMATE//
     //////////////////////////////
@@ -577,6 +576,25 @@ WeatherForTomorrow <ContextID> <Weather>
                 "NoBed_3": "%Krobus frantically looks you up and down, seemingly very anxious. Krobus points to where the bed used to be, then gives you a concerned look, clearly worried about your lack of sleep. Krobus scurries away to grab something, and returns with an Energy Tonic for you![349]#$e#%Krobus watches you intently to make sure you're alright. You reassure Krobus that you're fine, and Krobus sighs with relief.",
             }
         }
+    
+    ///////////////////////////// 
+    //KROBUS DIALOG NEEDS BETAS//
+    ///////////////////////////// 
+{
+    {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "When": {
+                "HasMod |contains=Spiderbuttons.BETAS": true,
+                "DAY_OF_MONTH:fri": false
+            },
+            "Entries": {
+                "eventSeen_96420011": "Hello..$3#$b#...$3#$b#Oh, I apologize.$2#$b#I still can't believe Dwarf saved me.$l", //THIS IS THE SEWER FLOOD
+            }
+        }
+    }
+
+
     ///////////////////////////////////////////////////////////////////////////////////////    
     //OTHER KROBY DIALOG THAT ISN'T IN THE DIALOGUE PLACE FOR SOME FUCKING REASON IDK MAN//
     ///////////////////////////////////////////////////////////////////////////////////////    
@@ -671,7 +689,8 @@ WeatherForTomorrow <ContextID> <Weather>
         "Action": "EditData",
         "Target": "Data/Events/Sewer",
         "Entries": {
-            "691039/f Dwarf 50/n CF_Sewer/d Fri": "Overcast/16 13/farmer -1000 -1000 0 Dwarf 14 13 1 Krobus 18 13 3 Wizard -1000 -1000 2/skippable/pause 500/emote Dwarf 12/speak Dwarf \"A Shadow Person, above ground? This is outrageous!#$b#You people were responsible for the death of my entire species!!!\"/move Krobus -1 0 3/emote Krobus 12/playSound shadowpeep/speak Krobus \"If you dwarves hadn't destroyed our ancestral home, we'd never have had to resort to violence!#$b#...I'm sorry about the death.\"/move Dwarf 1 0 1/speak Dwarf \"'Sorry' isn't going to cut it!\"/jump Dwarf/pause 500/animate Dwarf false true 50 4 5 6 7/jump Krobus/pause 500/animate Krobus false true 50 12 13 14 15/pause 1000/playSound throw/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/shake Dwarf 500/playSound clubhit/jump Krobus/pause 500/shake Krobus 500/playSound clubSmash/jump Dwarf/pause 500/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/shake Krobus 250/playSound shadowHit/pause 500/faceDirection farmer 0 true/animate farmer false true 500 13 14/warp farmer 16 9/playSound stoneStep/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/warp farmer 16 11/faceDirection farmer 2/pause 300/showFrame farmer 94/jump farmer/startJittering/pause 1000/stopJittering/speed farmer 6/showFrame 0/move farmer 0 2 2 true/pause 300/shake Dwarf 1000/shake Krobus 1000/playSound clubSmash/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/showFrame farmer 0/pause 500/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/speak Dwarf \"Let me at them! Shadowfiends are despicable.$a\"/speak Krobus \"Come and get it, shrimpy.$6\"/playMusic none/pause 1000/playSound wand/screenFlash 3/showFrame Wizard 16/warp Wizard 16 16/pause 2000/showFrame Wizard 0/pause 500/faceDirection Wizard 1 true/pause 50/faceDirection Wizard 0/pause 800/showFrame Wizard 17/screenFlash .35/playSound flameSpellHit/shake Wizard 500/specificTemporarySprite wizardSewerMagic/stopAnimation Krobus/stopAnimation Dwarf/faceDirection Krobus 2 true/faceDirection Dwarf 2 true/shake Krobus 1000/shake Dwarf 1000/pause 1000/speak Wizard \"Silence! Both of you!\"/pause 500/showFrame Wizard 8/playSound dwop/pause 1000/playMusic Upper_Ambient/speak Wizard \"The Elemental Wars have long been finished. You've no reason to be fighting any longer.#$b#The two of you must make peace, if not for yourselves then for the sake of those that live around you. Surely you can see that.\"/pause 1000/faceDirection Dwarf 3 true/faceDirection Krobus 1 true/pause 500/emote Dwarf 40 true/emote Krobus 40 true/pause 3000/speak Dwarf \"Fine. I guess I'll stay away from the sewers from now on.\"/faceDirection farmer 3/faceDirection Dwarf 1/pause 500/faceDirection farmer 1/pause 500/faceDirection Krobus 3/speak Krobus \"...And I'm truly sorry about the past, Dwarf. I have no personal gripe with you.$2\"/pause 1000/faceDirection farmer 2 true/faceDirection Dwarf 2 true/faceDirection Krobus 2 true/pause 1000/speak Wizard \"Very good. I shall cast a 'Seal of Promise' to finalize this agreement.\"/pause 1000/faceDirection Wizard 3 true/playSound dwop/pause 50/faceDirection Wizard 2/pause 1500/showFrame Wizard 16/playSound yoba/specificTemporarySprite WizardPromise/pause 3000/speed farmer 2/move farmer 0 -2 2/emote farmer 40/pause 800/end"
+            "691039/f Dwarf 50/n CF_Sewer/d Fri": null,
+            "691039/f Dwarf 250/n CF_Sewer/d Fri": "Overcast/16 13/farmer -1000 -1000 0 Dwarf 14 13 1 Krobus 18 13 3 Wizard -1000 -1000 2/skippable/pause 500/emote Dwarf 12/speak Dwarf \"A shadow-fiend, above ground? This is vile!#$b#My entire species was destroyed by you brutes!$a\"/move Krobus -1 0 3/emote Krobus 12/playSound shadowpeep/speak Krobus \"If your kind had not destroyed our home this could all have been avoided!$a#$b#Can you not see that I too am scarred by the bloodshed of the war, that I am not your enemy, that I am sorry for what my kind has done?$a\"/move Dwarf 1 0 1/speak Dwarf \"'Sorry' isn't going to cut it!$a\"/jump Dwarf/pause 500/animate Dwarf false true 50 4 5 6 7/jump Krobus/pause 500/animate Krobus false true 50 12 13 14 15/pause 1000/playSound throw/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/positionOffset Dwarf 4 0/positionOffset Krobus -4 0/pause 30/shake Dwarf 500/playSound clubhit/jump Krobus/pause 500/shake Krobus 500/playSound clubSmash/jump Dwarf/pause 500/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/shake Krobus 250/playSound shadowHit/pause 500/faceDirection farmer 0 true/animate farmer false true 500 13 14/warp farmer 16 9/playSound stoneStep/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/positionOffset farmer 0 16/shake Dwarf 250/pause 250/playSound hitEnemy/pause 250/playSound stoneStep/positionOffset farmer 0 16/shake Krobus 250/playSound shadowHit/pause 500/playSound stoneStep/positionOffset farmer 0 16/warp farmer 16 11/faceDirection farmer 2/pause 300/showFrame farmer 94/jump farmer/startJittering/pause 1000/stopJittering/speed farmer 6/showFrame 0/move farmer 0 2 2 true/pause 300/shake Dwarf 1000/shake Krobus 1000/playSound clubSmash/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/positionOffset Dwarf -16 0/positionOffset Krobus 16 0/pause 30/showFrame farmer 0/pause 500/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/speak Dwarf \"Let me at them! Shadowfiends are despicable.$a\"/speak Krobus \"Try, shrimpy!$6\"/playMusic none/pause 1000/playSound wand/screenFlash 3/showFrame Wizard 16/warp Wizard 16 16/pause 2000/showFrame Wizard 0/pause 500/faceDirection Wizard 1 true/pause 50/faceDirection Wizard 0/pause 800/showFrame Wizard 17/screenFlash .35/playSound flameSpellHit/shake Wizard 500/specificTemporarySprite wizardSewerMagic/stopAnimation Krobus/stopAnimation Dwarf/faceDirection Krobus 2 true/faceDirection Dwarf 2 true/shake Krobus 1000/shake Dwarf 1000/pause 1000/speak Wizard \"Silence! Both of you!\"/pause 500/showFrame Wizard 8/playSound dwop/pause 1000/playMusic Upper_Ambient/speak Wizard \"The Elemental Wars have long been finished. You've no reason to be fighting any longer.#$b#The two of you must make peace, if not for yourselves then for the sake of those that live around you. Surely you can see that.\"/pause 1000/faceDirection Dwarf 3 true/faceDirection Krobus 1 true/pause 500/emote Dwarf 40 true/emote Krobus 40 true/pause 3000/speak Dwarf \"Fine. I guess I'll stay away from the sewers from now on.\"/faceDirection farmer 3/faceDirection Dwarf 1/pause 500/faceDirection farmer 1/pause 500/faceDirection Krobus 3/speak Krobus \"...And I'm truly sorry about the past, Dwarf. I have no personal gripe with you.$2\"/pause 1000/faceDirection farmer 2 true/faceDirection Dwarf 2 true/faceDirection Krobus 2 true/pause 1000/speak Wizard \"Very good. I shall cast a 'Seal of Promise' to finalize this agreement.\"/pause 1000/faceDirection Wizard 3 true/playSound dwop/pause 50/faceDirection Wizard 2/pause 1500/showFrame Wizard 16/playSound yoba/specificTemporarySprite WizardPromise/pause 3000/speed farmer 2/move farmer 0 -2 2/emote farmer 40/pause 800/end"
         }
     }
     { //'SHADOW GUY' EVENT
@@ -688,8 +707,7 @@ WeatherForTomorrow <ContextID> <Weather>
 //DIALOG ENABLERS
 
     { //DIVORCE TOPIC
-            "Changes": [
-                {
+        {
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "When": {
@@ -703,11 +721,10 @@ WeatherForTomorrow <ContextID> <Weather>
                     "Action":[ "AddConversationTopic {{ModId}}_Evicted_Krobus 999999999"]
                 }
             }
-        }
-    ]
-}
+        }  
+    }
+
     { //Dwarf YAP ABOUT KROBUS ({{ModId}}_Yap_Dwarf) 1-5
-            "Changes": [
                 {
                     "Action": "EditData",
                     "Target": "Data/TriggerActions",
@@ -759,282 +776,163 @@ WeatherForTomorrow <ContextID> <Weather>
                         
                     }
                 }
-
-
-                //WEATER REACTIONS
-                { //HEATWAVE WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_Heatwave": {
-                                    "Id": "{{ModId}}_Heatwave",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Heatwave, RANDOM .9",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Heatwave_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
+            }
+                
+    { //BG CONVO TOPICS
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "DAY_OF_MONTH:fri": "false"
+                    },
+            "Entries": {
+                "{{ModId}}_RainStorm": {
+                    "Id": "{{ModId}}_RainStorm",
+                    "Trigger": "DayStarted",
+                    "Condition": "WEATHER Default Storm, RANDOM .4",
+                    "Actions": [
+                        "AddConversationTopic {{ModId}}_RainStorm_BG_Reaction 1",
                     ]
-                }
-
-        { //BLIZZARD WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_Blizzard": {
-                                    "Id": "{{ModId}}_Blizzard",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Blizzard, RANDOM .8",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Blizzard_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
+                },
+                "{{ModId}}_GreenRain": {
+                    "Id": "{{ModId}}_GreenRain",
+                    "Trigger": "DayStarted",
+                    "Condition": "WEATHER Default GreenRain",
+                    "Actions": [
+                        "AddConversationTopic {{ModId}}_GreenRain_BG_Reaction 1",
                     ]
-                }
-    
-        { //DELUGE WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_Deluge": {
-                                    "Id": "{{ModId}}_Deluge",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Deluge, RANDOM .6",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Deluge_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
+                },
+                "{{ModId}}_Snow": {
+                    "Id": "{{ModId}}_Snow",
+                    "Trigger": "DayStarted",
+                    "Condition": "WEATHER Default Snow, RANDOM .2",
+                    "Actions": [
+                        "AddConversationTopic {{ModId}}_Snow_BG_Reaction 1",
                     ]
-                }    
-
-        { //DRIZZLE WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_Drizzle": {
-                                    "Id": "{{ModId}}_Drizzle",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Drizzle, RANDOM .3",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Drizzle_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }                                
+                },
+            }
+        }
+    }             
                                     
-        { //DRY LIGHTNING WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_DryLightning": {
-                                    "Id": "{{ModId}}_DryLightning",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_DryLightning, RANDOM .4",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_DryLightning_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-                                    
-        { //HAILSTORM WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
-                            },
-                            "Entries": {
-                                "{{ModId}}_Hailstorm": {
-                                    "Id": "{{ModId}}_Hailstorm",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Hailstorm, RANDOM .9",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Hailstorm_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
 
-        { //MIST WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
+    { //WW CONVO TOPICS
+                    {
+                        "Action": "EditData",
+                        "Target": "Data/TriggerActions",
+                        "When": {
+                            "DAY_OF_MONTH:fri": "false",
+                            "HasMod |contains=Kana.WeatherWonders": true,
+                        },
+                        "Entries": {
+                            "{{ModId}}_AcidRain": {
+                                "Id": "{{ModId}}_AcidRain",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_AcidRain, RANDOM .95",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_AcidRain_WW_Reaction 1",
+                                ]
                             },
-                            "Entries": {
-                                "{{ModId}}_Mist": {
-                                    "Id": "{{ModId}}_Mist",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_Mist, RANDOM .3",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_Mist_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-        
-        { //RAINSTORM BG
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "DAY_OF_MONTH:fri": "false"
+                        
+                            "{{ModId}}_MuddyRain": {
+                                "Id": "{{ModId}}_MuddyRain",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_MuddyRain, RANDOM .3",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_MuddyRain_WW_Reaction 1",
+                                ]
                             },
-                            "Entries": {
-                                "{{ModId}}_RainStorm": {
-                                    "Id": "{{ModId}}_RainStorm",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Storm, RANDOM .5",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_RainStorm_BG_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-                                    
-        { //RAINSNOW WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "HasMod |contains=Kana.WeatherWonders": true,
-                                "DAY_OF_MONTH:fri": "false"
+                            "{{ModId}}_RainSnow": {
+                                "Id": "{{ModId}}_RainSnow",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_RainSnowMix, RANDOM .3",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_RainSnow_WW_Reaction 1",
+                                ]
                             },
-                            "Entries": {
-                                "{{ModId}}_RainSnow": {
-                                    "Id": "{{ModId}}_RainSnow",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_RainSnowMix, RANDOM .3",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_RainSnow_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-
-        { //ACID RAIN WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "DAY_OF_MONTH:fri": "false",
-                                "HasMod |contains=Kana.WeatherWonders": true,
+                            "{{ModId}}_Mist": {
+                                "Id": "{{ModId}}_Mist",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_Mist, RANDOM .3",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_Mist_WW_Reaction 1",
+                                ]
                             },
-                            "Entries": {
-                                "{{ModId}}_AcidRain": {
-                                    "Id": "{{ModId}}_AcidRain",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_AcidRain, RANDOM .95",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_AcidRain_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-
-        { //MUDDY RAIN WW
-                    "Changes": [
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "When": {
-                                "DAY_OF_MONTH:fri": "false",
-                                "HasMod |contains=Kana.WeatherWonders": true,
+                            "{{ModId}}_RainStorm": {
+                                "Id": "{{ModId}}_RainStorm",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Storm, RANDOM .5",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_RainStorm_BG_Reaction 1",
+                                ]
                             },
-                            "Entries": {
-                                "{{ModId}}_MuddyRain": {
-                                    "Id": "{{ModId}}_MuddyRain",
-                                    "Trigger": "DayStarted",
-                                    "Condition": "WEATHER Default Kana.WeatherWonders_MuddyRain, RANDOM .3",
-                                    "Actions": [
-                                        "AddConversationTopic {{ModId}}_MuddyRain_WW_Reaction 1",
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }             
-
-//OTHER
-    { //MOONLIGHT JELLY EVENT TRIGGER
-        "Changes": [
-            {
-                "Action": "EditData",
-                "Target": "Data/TriggerActions",
-                "Entries": {
-                    "{{ModId}}{{ModId}}_Moonlight_Jelly_Trigger": {
-                        "Id": "{{ModId}}_Moonlight_Jelly_Trigger",
-                        "Trigger": "DayEnding",
-                        "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, SEASON_DAY summer 28",
-                        "Actions": [
-                            "mncenre;oncf;eoinco;erin"
-                        ]
+                            "{{ModId}}_DryLightning": {
+                                "Id": "{{ModId}}_DryLightning",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_DryLightning, RANDOM .4",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_DryLightning_WW_Reaction 1",
+                                ]
+                            },
+                            "{{ModId}}_Drizzle": {
+                                "Id": "{{ModId}}_Drizzle",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_Drizzle, RANDOM .3",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_Drizzle_WW_Reaction 1",
+                                ]
+                            },
+                            "{{ModId}}_Deluge": {
+                                "Id": "{{ModId}}_Deluge",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_Deluge, RANDOM .6",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_Deluge_WW_Reaction 1",
+                                ]
+                            },
+                            "{{ModId}}_Blizzard": {
+                                "Id": "{{ModId}}_Blizzard",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_Blizzard, RANDOM .8",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_Blizzard_WW_Reaction 1",
+                                ]
+                            },
+                            "{{ModId}}_Heatwave": {
+                                "Id": "{{ModId}}_Heatwave",
+                                "Trigger": "DayStarted",
+                                "Condition": "WEATHER Default Kana.WeatherWonders_Heatwave, RANDOM .9",
+                                "Actions": [
+                                    "AddConversationTopic {{ModId}}_Heatwave_WW_Reaction 1",
+                                ]
+                            }                            
+            }             
+        }
+    }
+    { //WEATHER REACTIONS DIALOUGE
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/Krobus",
+                    "When": {
+                        "HasMod |contains=Kana.WeatherWonders": true,
+                        "DAY_OF_MONTH:fri": "false"
+                    },
+                    "Entries": {
+                        "{{ModId}}_Heatwave_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Heatwave_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Heatwave_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Blizzard_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Blizzard_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Blizzard_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Deluge_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Deluge_Roommate_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17}}|{{i18n: {{ModId}}_WeatherWonders_Deluge_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Drizzle_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Drizzle_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Drizzle_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_DryLightning_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_DryLightning_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_DryLightning_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Hailstorm_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Hailstorm_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Hailstorm_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Mist_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Mist_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Mist_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_RainSnow_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_RainSnow_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_RainSnow_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_AcidRain_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_AcidRain_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_AcidRain_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_MuddyRain_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_MuddyRain_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_MuddyRain_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_RainStorm_BG_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_BG_RainStorm_Roomate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_BG_RainStorm_Sewer_{{Random: 1, 2, 3}}",
+                        "{{ModId}}_Mist_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Mist_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Mist_{{Random: 1, 2, 3}}",
                     }
                 }
-            }
-    ]
-}
+
+//OTHER
     { //KROBUS HEART DIFFICULTY
-            "Changes": [
                 {
                     "Action": "EditData",
                     "Target": "Data/TriggerActions",
@@ -1081,10 +979,8 @@ WeatherForTomorrow <ContextID> <Weather>
                         }
                     }
                 }
-            ]
         }
     { //KROBUS SHED  
-            "Changes": [
                 {
                     "Action": "EditData",
                     "Target": "Data/TriggerActions",
@@ -1123,38 +1019,14 @@ WeatherForTomorrow <ContextID> <Weather>
                         },
                     }
                 }
-            ]
         }
     
     
 
         WeatherWonders_Cloudy GreenRain  Snow WeatherWonders_MuddyRain
 
-    { //WEATHER REACTIONS DIALOUGE
-                    "Action": "EditData",
-                    "Target": "Characters/Dialogue/Krobus",
-                    "When": {
-                        "HasMod |contains=Kana.WeatherWonders": true,
-                        "DAY_OF_MONTH:fri": "false"
-                    },
-                    "Entries": {
-                        "{{ModId}}_Heatwave_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Heatwave_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Heatwave_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Blizzard_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Blizzard_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Blizzard_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Deluge_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Deluge_Roommate_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17}}|{{i18n: {{ModId}}_WeatherWonders_Deluge_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Drizzle_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Drizzle_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Drizzle_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_DryLightning_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_DryLightning_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_DryLightning_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Hailstorm_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Hailstorm_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Hailstorm_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Mist_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Mist_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Mist_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_RainSnow_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_RainSnow_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_RainSnow_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_AcidRain_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_AcidRain_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_AcidRain_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_MuddyRain_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_MuddyRain_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_MuddyRain_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_RainStorm_BG_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_BG_RainStorm_Roomate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_BG_RainStorm_Sewer_{{Random: 1, 2, 3}}",
-                        "{{ModId}}_Mist_WW_Reaction": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#{{i18n: {{ModId}}_WeatherWonders_Mist_Roommate_{{Random: 1, 2, 3}}|{{i18n: {{ModId}}_WeatherWonders_Mist_{{Random: 1, 2, 3}}",
-                    }
-                }
                 //MAIL
                 { //EMILY LETTERS (IF EMILY KNOWS KROBUS) 
-                    "Changes": [
                         {
                             "Action": "EditData",
                             "Target": "Data/TriggerActions",
@@ -1206,7 +1078,6 @@ WeatherForTomorrow <ContextID> <Weather>
                                 },
                             }
                         }
-                    ]
                 }
 
 { //CONCESSIONS PREFERENCES
@@ -1389,21 +1260,5 @@ WeatherForTomorrow <ContextID> <Weather>
         //Krobus gifts you:
         // 347 (rare seed), 94 (spirit torch, these are significant to shadow culture),
         //Line Ideas/Drafts/idfk bitch
-        "We're so different in so many ways... but that's alright.$0#$b#I like it actually. I love learning about other cultures, and humans fascinate me!$1",
-        "$query PLAYER_HAS_TRINKET Current FrogEgg#Oh I love frogs!",
-        "I've learned to overcome my bias against humans... but smoluanu still repulse me.$a#$b#Well, not any more I suppose. There are none left, except for our Dwarf.$0#$b#...some things Dwarf does ARE disgusting, though. They told me they bathe in fermented bug meat sludge... do you think that's true?",
-        "$query BUILDINGS_CONSTRUCTED All 4#Hello @!#$b# I was talking with some of the slimes that live in the hutch last night.",
-        "",
-        "Hello @! I noticed you carrying a \"magnifying glass\" earlier. Have you found any secret notes?#$e#Oh, a shadowfolk dropped it?#$b#It's nice knowing there are other peaceful shadowfolk out there!$l#$b#It does make sense they would have dropped a \"magnifying glass\", much of my kind enjoy snatching things from humans' houses at night. $1#$b#...I must say, I'm not wholly innocent that regard.. I've taken many a book from the library in my time!$7#$b#I do return them however, don't worry!$3",
-        "I decided upon the name \"Krobus\" for myself. $1#$b#This was only a few decades ago.$0#$e#Before then, I had other names... when I lived among the more violent of the Shadowfolk...$2#$b#I am glad to be \"Krobus\" now.",
-        "Us Shadowfolk cannot grow old. We can \"pass away,\" though certainly not in the same way as your kind.#$e#With time, we slowly dissolve until we are indistinguishable from the darkness once again, though it is a very prolonged process that we do have a modicum of control over.#$b#Some time later, a new shadowbeing emerges from the darkness.$h""Hello @.$1#$b#I've been thinking a lot recently.#$b#*sigh* ...I carry mixed feelings about my kind. On one hand, I'm ashamed of the violence we've caused. It's said that chaos is simply our nature.$2#$b#But... we're not all violent or malicious. And my kin, my origin... it is still who I am. I am still a Shadowfolk, and I cannot forsake my kind.$3#$b#I know it is a difficult ask, but... please do not hate us. The culture of corruption and violence among my species ran amok after the war.$2#$b#I was one of few to escape it, but... there are other kind Shadowfolk out there, I know it. I knew some of them, back in the caves.$3#$b#I just hope they are still alive... many of us were persecuted by those violent Shadowfolk who remained blinded by their ignorance and pain.$2#$b#I only hope that I can transcend the brutality of my origin.$2",
-        "My friends and I have been persecuted by the remainder of our kind, for rebelling agaisnt the violence of recent Shadowfolk culture.$2#$e#But.. I cannot declare myself better than the violent folk. They remain deluded by the pain of the wars.$2#$e#Please, be merciful to my kind, @.$2",
-        "I just want to live my life doing right by Yoba. I never wanted to be an agent of chaos.$s#$e#But then I think... isn't it Yoba who made the shadow brutes? And made me the way I am? Sometimes it's all so confusing.$3#$e#Then again... Yoba brought you to me, and I like living here with you.#$b#And that isn't so complicated, is it?$7",
-        "I remember when I first learned the sound of your footsteps approaching me in the sewer. Such a fond memory.$h",
-        "",
-        "...Have you encountered others like me, in the mines? I'm sorry if they were hostile towards you. You see, we've learned to fear humans... there have been too many... unpleasant encounters.$s#$e#You haven't... slain any of my friends, have you?$3",
-        "Thank you for being respectful toward my decision of silence on Fridays, @. It is relieving to find folks who accept my devotion to Yoba.",
-        "Many shadow beings enjoy a \"Strange Bun.\" I certainly do, too.#$b#But humans probably don't like them. Too bad, they're delicious.$s",
 
-    ]
-}
+    
