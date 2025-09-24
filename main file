@@ -310,6 +310,12 @@
                 "spring_13": "Hello! May Yoba bless your morning!$l#$b#I read the mail, there's an \"egg festival\" later today, right?.#$b#I hope this may assist in your festivities[680 445 437 305 182 176 174 180 812]!$h#",
                 "spring_15": "$query PLAYER_HAS_MET Current Sandy, PLAYER_HEARTS Current Krobus 4 10#Good morning, @! I believe there is a \"desert festival\" occuring for the next few days, yes?$0#$b#I cannot comprehend would anyone want to go to a desert ...it's so dry!$3#$b#Oh, there are shops and other festivities there? I suppose that makes more sense.#$b#If you do end up going @, please be careful. I don't want you to get hurt..$2#$b#Is lack of humidity dangerous for humans?",
                 "spring_23": "Hello @! I read in the mail that there is a \"flower dance\" tomorrow in the woods.$0#$b#I hope you enjoy it! I believe there are shops at the festivals, I hope this can help you afford something nice. $1 #$action AddMoney 500 #$b#I also got you a flower for the dance.[18]#$e#Oh, the money? $3#$b#Rasmodius purchased some void essence from my shop.$0#$b#I wonder what he does with it...$0",
+                "spring_25": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_krobuswonderswizard, !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_krobusmeetsvillagers#Hello @! I really enjoy living with you!$h#$b#...$0#$q {{ModId}}_idkbitch/{{ModId}}_ithinkwizardwhatever spring_25_old#I wonder if the wizard knows about us living together? I hope he can keep it a secret...$2#$r {{ModId}}_idkbitch 0 spring_25_1#I don't know. But I think we'll be safe.#$r {{ModId}}_ithinkwizardwhatever 20 spring_25_2#I'm sure he knows. And I don't think he would associate with anyone who would harm us. Besides, we can keep each other safe, and I have human friends that I trust if anything happens.#$r {{ModId}}_ithinkwizardwhatever -10 spring_25_3#Probably not. We've kept it a decent secret",
+                    "spring_25_old": "I should probably ask him. I think he can help us if something bad happens.$0",
+                    "spring_25_1": "%Krobus nods, evidently still worried, but your words seem to have helped slightly.#$b# $t {{ModId}}_krobuswonderswizard 99999999",
+                    "spring_25_2": "I worry that other humans would not understand me...$u#$b#Well.. I suppose you did. Maybe there are other people as kind as you out there. And I agree, I think we can trust the wizard.$0#$b#I thank you, @. I feel better now.$1#$b# $t {{ModId}}_krobuswonderswizard 9999999",
+                    "spring_25_3": "That's true.$2#$b# $t {{ModId}}_krobuswonderswizard 9999999",
+
                 //SUMMER
                 "summer_1": "I have to be quite careful this time of year, sunlight can be quite damaging to us Shadowfolk.$2#$b#The warmth and humidity is very soothing, though.$1#$b#But I do understand that such climates can be dangerous for humans! Please be careful out there, @.$3",
                 "summer_8": "Hello @! I understand that humans are particulary sensitive to temperature so I got you some \"iced cream\", I believe most humans enjoy it?[233]$0#$e#Do you think %pet will be okay in the heat?$u#$b#I worry a lot about you both, I'm still not wholly accustomed to how mortality works...$2",
@@ -378,56 +384,6 @@
         },
        
         
-    /////////////////////////////////////////////////////////    
-    //KROBUS DIALOG ROOMATE PRE-DWARF FRIENDSHIP NON-FRIDAY//
-    /////////////////////////////////////////////////////////    
-    {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogueKrobus",
-            "When": {
-                "Relationship:Krobus": "Married",
-                "HasSeenEvent": "MAKE_EVENT_THEN_PUT_ID_HERE: false",
-                "DAY_OF_MONTH:fri": "false",
-                "HasMod |contains=Lemurkat.Dwarf.CP": true
-            },
-            "Entries": {
-                //SPECIFIC DATES
-                "spring_25": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_krobuswonderswizard#Hello @! I really enjoy living with you!$h#$b#...$0#$b#
-                $q idkbitchnotfriends/ithinkwizardwhatevernotfriends spring_25_old#I wonder if the wizard knows about us? I hope he can keep it a secret, especially from Dwarf...$2#
-                $r idkbitchnotfriends -5 spring_25_1#I don't know. But I think we'll be safe.
-                #$r ithinkwizardwhatevernotfriends 20 spring_25_2#I'm sure he knows. And I don't think he would associate with anyone who would harm us. Besides, we can keep each other safe, and I have human friends that I trust if anything happens.#
-                $r ithinkwizardwhatevernotfriends -8 spring_25_3#Probably not. We've kept it a decent secret",
-                "spring_25_old": "I should probably ask him. I think he can help us if something bad happens.$0",
-                "spring_25_1": "%Krobus nods, evidently still worried, but your words seem to have helped slightly.#$b#$t {{ModId}}_krobuswonderswizard 8",
-                "spring_25_2": "I worry that other humans would not understand me...$u#$b#Well.. I suppose you did. Maybe there are other people as kind as you out there. And I agree, I think we can trust the wizard.$0#$b#Thank you. I feel better now @.$1#$b#$t {{ModId}}_krobuswonderswizard 8",
-                "spring_25_3": "That's true.$2#$b#$t {{ModId}}_krobuswonderswizard 8",
-            }
-        },
-    /////////////////////////////////////////////////////    
-    //KROBUS DIALOG ROOMATE DWARF FRIENDSHIP NON-FRIDAY//
-    /////////////////////////////////////////////////////    
-    {
-        "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogueKrobus",
-            "When": {
-                "Relationship:Krobus": "Married",
-                "HasSeenEvent": "MAKE_EVENT_THEN_PUT_ID_HERE",
-                "DAY_OF_MONTH:fri": "false",
-                "HasMod |contains=Lemurkat.Dwarf.CP": true
-
-            },
-            "Entries": {
-                //RAINY (DAY IS 0-4, NIGHT IS 0-5)
-                //SPECIFIC DATES
-                "spring_25": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_krobuswonderswizard#Hello @! I really enjoy living with you!$h#$b#...$0#$b#
-                $q idkbitchfriends/ithinkwizardwhateverfriends spring_25_old#I wonder if the wizard knows about us? I hope he can keep it a secret...$2#
-                $r idkbitchfriends -5 spring_25_1#I don't know. But I think we'll be safe.
-                #$r ithinkwizardwhateverfriends 20 spring_25_2#I'm sure he knows. And I don't think he would associate with anyone who would harm us. Besides, we can keep each other safe, and I have human friends that I trust if anything happens.#
-                $r ithinkwizardwhateverfriends -8 spring_25_3#Probably not. We've kept it a decent secret","spring_25_old": "I should probably ask him. I think he can help us if something bad happens.$0","spring_25_1": "%Krobus nods, evidently still worried, but your words seem to have helped slightly.#$b# $t {{ModId}}_krobuswonderswizard 99999999",
-                "spring_25_2": "I worry that other humans would not understand me...$u#$b#Well.. I suppose you did. Maybe there are other people as kind as you out there. And I agree, I think we can trust the wizard.$0#$b#Thank you. I feel better now @.$1#$b# $t {{ModId}}_krobuswonderswizard 9999999",
-                "spring_25_3": "That's true.$2#$b# $t {{ModId}}_krobuswonderswizard 9999999",
-            }
-        },
 
 
     ///////////////////////////////// 
@@ -519,8 +475,8 @@
             "Target": "Strings/Characters",
             "Entries": {
                 "KrobusDarkTalisman": "$query PLAYER_HEARTS Current Krobus 5#Hello, @!$1#$b#Oh, you're looking for something?#$b#A dark talisman?$3#$b#Hmmmm... I did have one in my possession not too long ago!#$b#Unfortunately, I dropped it while exploring that tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#Do you want me to open it up for you?#$b#I will! Just be careful, okay, @? I don't want you to get hurt.$3|Oh, you're looking for a dark talisman?$3#$b#...Hmmm. Now that you mention it, I did have one in my possession not too long ago.#$b#Unfortunately, I dropped it while exploring that tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#I'll open it back up for you, if you want.#$b#Just be careful, okay?",
-                "KrobusDarkTalisman_elsewhere": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#Hello, @!$1#$b#Oh, you're looking for a dark talisman?$3#$b#Hmmmm... I did have one in my possession when I lived in the sewers!#$b#Unfortunately, I dropped it while exploring a tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.$2#$b#Don't worry @, I was fine.$3#$b#Do you want me to open it up for you?#$b#I will! Just... be careful with the talisman. I trust you to be cautious with your magical pursuits.#$b#Oh, and do take caution in the tunnel!$3#$b#Maybe bring me back some bug meat?$7|Oh, you're looking for a dark talisman?$3#$b#...Hmmm. Now that you mention it, I did have one in my possession not too long ago.#$b#Unfortunately, I dropped it while exploring that tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#I'll open it back up for you, if you want.#$b#Just be careful, okay?",
-                "MovieInvite_Invited_Krobus": "Oh? I normally hide myself from humans...#$b#But I have an idea... I'll meet you at the theater later.",
+                "KrobusDarkTalisman_elsewhere": "$query PLAYER_NPC_RELATIONSHIP current Krobus Roommate#Hello, @!$1#$b#Oh, you're looking for a dark talisman?$3#$b#Hmmmm... I did have one in my possession when I lived in the sewers!#$b#Unfortunately, I dropped it while exploring a tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.$2#$b#Don't worry @, I was fine.$3#$b#Do you want me to open it up for you?#$b#I will! Just... be careful with the talisman. I trust you to be cautious with your magical pursuits.#$b#Oh, and do take caution in the tunnel!$3#$b#Maybe bring me back some bug meat?$7|Oh, you're looking for a dark talisman?$3#$b#...Hmmm. Now that you mention it, I did have one in my possession not too long ago.#$b#Unfortunately, I dropped it while exploring a tunnel in the far corner.#$b#Things started heating up in there, so I left in a hurry and sealed the entrance.#$b#I'll open it back up for you, if you want.#$b#Just be careful, okay?",
+                "MovieInvite_Invited_Krobus": "Oh? I normally hide myself from humans...#$b#But I have an idea... I'll meet you at the theater later.$7",
             }
         }
         //ENGAGEMENT DIALOG
@@ -532,7 +488,7 @@
                 },
                 "Entries": {
                     "Krobus0": "$query PLAYER_HAS_SEEN_EVENT Current 96420011#Hello @!!$1#$b#Oh @, I'm so excited to join you on your farm!$7#$b#I still have to set up my shop so others can purchase my goods. I should probably set up an enchanted chest... Hm.. I will ask Rasmodius. I have a lot of stock saved, I won't have to refill it often...$0#$e#Oh, my customers? It's mostly you and Rasmodius, Linus purchases things occasionally.$1#$e#*giggle* Dwarf bought something from my shop once, before they rescued me. They didn't seem happy to see me, but they had to purchase the item!$7#$b#*giggle* I even made them say 'please'!$6|Hello @!!$1#$b#Oh @, I'm so excited to join you on your farm!$7#$b#I still have to set up my shop so others can purchase my goods. I should probably set up an enchanted chest... Hm.. I will ask Rasmodius. I have a lot of stock saved, I won't have to refill it often...$0#$e#Oh, my customers? It's mostly you and Rasmodius, Linus purchases things occasionally.$1#$e#*giggle* Dwarf bought something from my shop once. They didn't seem happy to see me, but they had to purchase the item! They couldn't even threaten me due to our seal of promise!$7#$b#*giggle* I even made them say 'please'!$6",
-                    "Krobus1": "It will be quite unusual for the both of us to live on your farm together, but I'm looking forward to it!$1"
+                    "Krobus1": "It will be quite unusual for the both of us to live on your farm together, but I'm very much looking forward to it!$1"
                 }
             }
             { //ENGAGEMENT DIALOG WITHOUT TLS
@@ -543,7 +499,7 @@
                 },
                 "Entries": {
                     "Krobus0": "Hello @!!$1#$b#Oh @, I'm so excited to join you on your farm!$7#$b#I still have to set up my shop so others can purchase my goods. I should probably set up an enchanted chest... Hm.. I will ask Rasmodius. I have a lot of stock saved, I won't have to refill it often...$0#$e#Oh, my customers? It's mostly you and Rasmodius, Linus purchases things occasionally.$1#$e#*giggle* Dwarf bought something from my shop once. They didn't seem happy to see me, but they had to purchase the item! They couldn't even threaten me due to our seal of promise!$7#$b#*giggle* I even made them say 'please'!$6",
-                    "Krobus1": "It will be quite unusual for the both of us to live on your farm together, but I'm looking forward to it!$1"
+                    "Krobus1": "It will be quite unusual for the both of us to live on your farm together, but I'm very much looking forward to it!$1"
                 }
             }
 ////////////////////
@@ -574,7 +530,12 @@
                 "eventSeen_96420011": "Now my flying machine is covered in void dust..$a", //THIS IS THE SEWER FLOOD EVENT
 
                 //YAP
-                "{{ModId}}_Yap_Dwarf_1_Dialog":"That dung-breath over there keeps going in my room and getting void dust into everything. It's everywhere. Void dust in my bed, void dust clogging the gears of my machines, there's even void dust stuck to my clothes since they keep hugging me.$a#$b#No, I don't want you to ask them to stop, why would you think that?",
+                "{{ModId}}_Yap_Dwarf_1_Dialog":"$query NPC_NEAR_NPC Dwarf 20 Krobus#That stupid dung-breath over there keeps going in my room and getting void dust into everything. It's everywhere. Void dust in my bed, void dust clogging the gears of my machines, there's even void dust stuck to my clothes since they keep hugging me.$a#$b#No, I don't want you to ask them to stop, why would you think that?",
+                "{{ModId}}_Yap_Dwarf_2_Dialog":"Friend, did you know that that dung-breath \"EATS BUGS?!\"#$b#Yeah- they EAT them. RAW. How do I know? They OFFERED me some. Ugh. Repulsive.$2#$e#Just take this- I don't even know why I took it...[874]",
+                "{{ModId}}_Yap_Dwarf_3_Dialog":"",
+                "{{ModId}}_Yap_Dwarf_4_Dialog":"",
+                "{{ModId}}_Yap_Dwarf_5_Dialog":"",
+
             }
         }
         //MAIL 
@@ -991,13 +952,18 @@
                         "LikedTags": [],
                         "DislikedTags": [
                             "Sweet",
-                            "Candy""Drink",
+                            "Candy",
+                            "Drink",
                             "Hot",
-                            "Healthy""Cold",
-                            "Joja""Sour",
+                            "Healthy",
+                            "Cold",
+                            "Joja",
+                            "Sour",
                             "Salty",
-                            "Fatty""Sandwich",
-                            "Burger""Gourmet",
+                            "Fatty",
+                            "Sandwich",
+                            "Burger",
+                            "Gourmet",
                             "Stardrop Sorbet"
                         ]
                     },
@@ -1024,139 +990,144 @@
                 // _Deluge_reaction
                 // {{ModId}}_Yap_Dwarf_1_Dialog
                 // _Drizzle_reaction
-                // CHARACTER DATA
-                { //DWARF
-                    "Action": "EditData",
-                    "Target": "Data/Characters",
-                    "Entries": {
-                        "Dwarf": {
-                            "CanCommentOnPurchasedShopItems": true,
-                            "DumpsterDiveFriendshipEffect": 0,
-                        },
-                    }
-                }
-    { // KROBUS
-                    "Action": "EditData",
-                    "Target": "Data/Characters",
-                    "Entries": {
-                        "Krobus": {
-                            "DisplayName": "[LocalizedText Strings\\NPCNames:Krobus]",
-                            "BirthSeason": "Winter",
-                            "BirthDay": 1,
-                            "HomeRegion": "Other",
-                            "Language": "Default",
-                            "Gender": "Undefined",
-                            "Age": "Adult",
-                            "Manner": "Polite",
-                            "SocialAnxiety": "Shy",
-                            "Optimism": "Neutral",
-                            "IsDarkSkinned": false,
-                            "CanBeRomanced": false,
-                            "Calendar": "HiddenUntilMet",
-                            "SocialTab": "HiddenUntilMet",
-                            "CanSocialize": null,
-                            "CanReceiveGifts": true,
-                            "CanGreetNearbyCharacters": true,
-                            "CanCommentOnPurchasedShopItems": null,
-                            "CanVisitIsland": "FALSE",
-                            "IntroductionsQuest": false,
-                            "ItemDeliveryQuests": null,
-                            "PerfectionScore": true,
-                            "EndSlideShow": "TrailingGroup",
-                            "SpouseAdopts": null,
-                            "SpouseWantsChildren": null,
-                            "SpouseGiftJealousy": null,
-                            "SpouseGiftJealousyFriendshipChange": 0,
-                            "SpouseRoom": {
-                                "MapAsset": null,
-                                "MapSourceRect": {
-                                    "X": 12,
-                                    "Y": 18,
-                                    "Width": 6,
-                                    "Height": 9
-                                }
-                            },
-                            "SpousePatio": null,
-                            "SpouseFloors": [],
-                            "SpouseWallpapers": [
-                                "2",
-                                "3",
-                                "2",
-                                "4"
-                            ],
-                            "DumpsterDiveFriendshipEffect": 0,
-                            "DumpsterDiveEmote": null,
-                            "FriendsAndFamily": {},
-                            "FlowerDanceCanDance": null,
-                            "WinterStarGifts": [],
-                            "WinterStarParticipant": null,
-                            "UnlockConditions": null,
-                            "SpawnIfMissing": true,
-                            "Home": [
-                                {
-                                    "Id": "Default",
-                                    "Condition": null,
-                                    "Location": "Sewer",
-                                    "Tile": {
-                                        "X": 31,
-                                        "Y": 17
-                                    },
-                                    "Direction": "down"
-                                }
-                            ],
-                            "TextureName": null,
-                            "Appearance": [
-                                {
-                                    "Id": "MovieTheater",
-                                    "Condition": "ANY \"LOCATION_NAME Target MovieTheater\" \"IS_EVENT MovieTheaterScreening\"",
-                                    "Season": null,
-                                    "Indoors": true,
-                                    "Outdoors": true,
-                                    "Portrait": null,
-                                    "Sprite": "Characters/Krobus_Trenchcoat",
-                                    "IsIslandAttire": false,
-                                    "Precedence": -1000,
-                                    "Weight": 1
-                                }
-                            ],
-                            "MugShotSourceRect": null,
-                            "Size": {
-                                "X": 16,
-                                "Y": 24
-                            },
-                            "Breather": false,
-                            "BreathChestRect": null,
-                            "BreathChestPosition": null,
-                            "Shadow": false,
-                            "EmoteOffset": {
-                                "X": 0,
-                                "Y": 0
-                            },
-                            "ShakePortraits": [],
-                            "KissSpriteIndex": 16,
-                            "KissSpriteFacingRight": true,
-                            "HiddenProfileEmoteSound": null,
-                            "HiddenProfileEmoteDuration": -1,
-                            "HiddenProfileEmoteStartFrame": 20,
-                            "HiddenProfileEmoteFrameCount": 4,
-                            "HiddenProfileEmoteFrameDuration": 200.0,
-                            "FormerCharacterNames": [],
-                            "FestivalVanillaActorIndex": 33,
-                            "CustomFields": null
-                        },
-                    }
-                }
-            ]
+
+
+
+// CHARACTER DATA
+    { //DWARF
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "Dwarf": {
+                "CanCommentOnPurchasedShopItems": true,
+                "DumpsterDiveFriendshipEffect": 0,
+            },
         }
-        // OTHER
-        { //'SHADOW GUY' FOUND
-            //they do use krobus's sprite for the shadow guy, change this!!
-            "Action": "EditData",
-            "Target": "Strings/Locations",
-            "Entries": {
-                "Town_mgThiefMessage": "???: EEEeeeeep! Please don't hurt me! Take it! It looked so shiny, I couldn't help myself...",
+    }
+    { // KROBUS
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "Krobus": {
+                "DisplayName": "[LocalizedText Strings\\NPCNames:Krobus]",
+                "BirthSeason": "Winter",
+                "BirthDay": 1,
+                "HomeRegion": "Other",
+                "Language": "Default",
+                "Gender": "Undefined",
+                "Age": "Adult",
+                "Manner": "Polite",
+                "SocialAnxiety": "Shy",
+                "Optimism": "Neutral",
+                "IsDarkSkinned": false,
+                "CanBeRomanced": false,
+                "Calendar": "HiddenUntilMet",
+                "SocialTab": "HiddenUntilMet",
+                "CanSocialize": null,
+                "CanReceiveGifts": true,
+                "CanGreetNearbyCharacters": true,
+                "CanCommentOnPurchasedShopItems": false,
+                "CanVisitIsland": "FALSE",
+                "IntroductionsQuest": false,
+                "ItemDeliveryQuests": false,
+                "PerfectionScore": true,
+                "EndSlideShow": "TrailingGroup",
+                "SpouseAdopts": true,
+                "SpouseWantsChildren": false,
+                "SpouseGiftJealousy": false,
+                "SpouseGiftJealousyFriendshipChange": 0,
+                "SpouseRoom": {
+                    "MapAsset": null,
+                    "MapSourceRect": {
+                        "X": 12,
+                        "Y": 18,
+                        "Width": 6,
+                        "Height": 9
+                            }
+                        },
+                    "SpousePatio": null,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [
+                        "2",
+                        "3",
+                        "2",
+                        "4"
+                        ],
+                "DumpsterDiveFriendshipEffect": 0,
+                "DumpsterDiveEmote": null,
+                "FriendsAndFamily": {},
+                "FlowerDanceCanDance": null,
+                "WinterStarGifts": [],
+                "WinterStarParticipant": null,
+                "UnlockConditions": null,
+                "SpawnIfMissing": true,
+                "Home": [
+                    {
+                        "Id": "Default",
+                        "Condition": null,
+                        "Location": "Sewer",
+                        "Tile": {
+                            "X": 31,
+                            "Y": 17
+                        },
+                        "Direction": "down"
+                    }
+                ],
+                "TextureName": null,
+                "Appearance": [
+                    {
+                        "Id": "MovieTheater",
+                        "Condition": "ANY \"LOCATION_NAME Target MovieTheater\" \"IS_EVENT MovieTheaterScreening\"",
+                        "Season": null,
+                        "Indoors": true,
+                        "Outdoors": true,
+                        "Portrait": null,
+                        "Sprite": "Characters/Krobus_Trenchcoat",
+                        "IsIslandAttire": false,
+                        "Precedence": -1000,
+                        "Weight": 1
+                    }
+                    ],
+                "MugShotSourceRect": null,
+                "Size": {
+                    "X": 16,
+                    "Y": 24
+                },
+                "Breather": false,
+                "BreathChestRect": null,
+                "BreathChestPosition": null,
+                "Shadow": false,
+                "EmoteOffset": {
+                    "X": 0,
+                    "Y": 0
+                },
+                "ShakePortraits": [],
+                "KissSpriteIndex": 16,
+                "KissSpriteFacingRight": true,
+                "HiddenProfileEmoteSound": null,
+                "HiddenProfileEmoteDuration": -1,
+                "HiddenProfileEmoteStartFrame": 20,
+                "HiddenProfileEmoteFrameCount": 4,
+                "HiddenProfileEmoteFrameDuration": 200.0,
+                "FormerCharacterNames": [],
+                "FestivalVanillaActorIndex": 33,
+                "CustomFields": null
+            },
+        }
+    }
+
+    // OTHER
+    { //'SHADOW GUY' FOUND
+        //they do use krobus's sprite for the shadow guy, change this!!
+        "Action": "EditData",
+        "Target": "Strings/Locations",
+        "Entries": {
+            "Town_mgThiefMessage": "???: EEEeeeeep! Please don't hurt me! Take it! It looked so shiny, I couldn't help myself...",
             }
         }
+
+    ]
+}
         //Krobus gifts you:
         // 347 (rare seed), 94 (spirit torch, these are significant to shadow culture),
         //Line Ideas/Drafts/idfk bitch
