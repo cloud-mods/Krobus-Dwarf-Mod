@@ -46,7 +46,9 @@
             "When": {
                 "DAY_OF_MONTH:fri": "false"
             },
-            "Entries": {                
+            "Entries": {    
+                "RejectItem_808":"%You cannot gift this to Krobus. To roommate Krobus, you'll have to reach 10 hearts with Krobus, see all of Krobus's heart events, and upgrade your house to have a kitchen. After this, enter the sewers with this in your inventory to trigger a proposal event.",
+                
                 //BOOK RESPONSES
                     "AcceptGift_(O)Book_Void": "Hey, look! All my friends are in here!$h#$b#Wait a minute, is that me...?$7",
                     "AcceptGift_(O)PurpleBook": "Thank you @!$h#$b#I always enjoy a chance to improve my reading.$1",
@@ -75,16 +77,16 @@
                 //////////////
                 //INDIVIDUAL//
                 //////////////
-                    "AcceptGift_(O)StardropTea": "Is that... Stardrop Tea? Thank you so much! There's something so... soothing about it.$1#$b#I really appreciate it, @. It is considered a great act of kindness among my people to offer this to somebody, and I am honored to be the recipient of such a gift.$4",
+                    "AcceptGift_(O)StardropTea": "Is that... Stardrop Tea?$3#$b#Thank you so much! There's something so... soothing about it.$1#$b#I very much appreciate this, @. It is considered a great act of kindness among my people to offer this to somebody, and I am honored to be the recipient of such a gift.$4",
                 //MISC.
-                    "AcceptGift_(0)279": "Magic rock candy!? Wow...$3#$b#Thank you very, very much @, these are considered a sacred delicacy among us shadowfolk!$l#$b#I will save this for a future date, I wish to find a proper use for it before I indulge.$1#$e#...$3#$b#I'm still amazed, thank you very much for this wonderous gift!",
-                    "AcceptGift_(O)308": "This looks delicious! I'll eat half, and use the other half to moisturize my body!!$h", //FIX THIS YOU'RE INCOPOREAL
-                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 5#TextAboveHead Krobus {{i18n: {{ModId}}_coffee_sick}} 3500 2000 true 56160C#ShakeNpc Krobus 10000", //coffee, caffine absolutely destroys krobus
+                    "AcceptGift_(0)279": "Oh, magic rock candy? It's a very rare item.#$b#Oh, it's for me?!$3#$b#Oh, wow...$7#$b#Thank you very, very much @, these are considered a sacred delicacy among us shadowfolk!$l#$b#I will save this for a future date, I wish to find a proper use for it before I indulge.$1#$e#...$3#$b#I'm still amazed, thank you very much for this wonderful gift!#AddFriendshipPoints Krobus 20",
+                    "AcceptGift_(O)308": "Oh, void mayo! This my favorite, @, I thank you!$1#$b#Did you make it on your farm?",
+                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 20#TextAboveHead Krobus {{i18n: {{ModId}}_coffee_sick}} 3500 2000 true 56160C#ShakeNpc Krobus 10000", //coffee, caffine absolutely destroys krobus
                     
                     "AcceptGift_(O)414": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_crystalfruitgiftedrotten#Thank you, @! I haven't seen this sort of crystal before, it's very pleasant.$1#$t {{ModId}}_crystalfruitgifted 1",
                         "{{ModId}}_crystalfruitgifted_memory_oneweek": "Hello, @. Something happened to the crystal you gave me, it became soft and collapsed.$2#$b#Oh, it was a fruit?!$7#{{ModId}}_crystalfruitgiftedrotten 99999999999",
                     "AcceptGift_(O)419": "Oh, a human beverage? Um, I suppose I will try it...$3#$b#Wow, it's delicious! Thank you, @!$l", //KROBUS ITS FUCKING VINEGARRRR WHATTT
-                    "AcceptGift_(O)446": "Um, @? What is this?$3#$b#Oh, humans belive these \"fluff-things\" are meant to bring about good luck?$7#$b#That's fantastic!$1#$b#I very much appreciate you including me in your human customs, @!$l", //RABBIT FOOT
+                    "AcceptGift_(O)446": "..Um, @? I-I don't know what this is..?$3#$b#Oh, humans belive these \"fluff-things\" are meant to bring about good luck?$7#$b#That's fantastic!$1#$b#I very much appreciate you including me in your human customs, @!$l", //RABBIT FOOT
                     "AcceptGift_(O)879": "A gift of lovely perfume? Oh @, I'm flattered!$4#$b#What does it smell like @? $0#$b#Us shadowfolk lack a sense of smell, but I still very much appreciate the sentiment!$h",
                     "AcceptGift_(O)903": "Oh, a human beverage? I suppose I will try it...$3#$b#%Krobus takes a sip of the ginger ale.#$b#\"Oh.\"$3#$b#@, please never give this to me again.$2#$e#*whimper*\"..the texture.\"$2#AddFriendshipPoints Krobus -50", //ginger ale
                     "AcceptGift_(O)MysticSyrup": "Wow, this is such a beautiful vase! Thank you!$1",
@@ -97,7 +99,7 @@
                     "AcceptGift_(O)459": "Interesting, you say this is \"alcoholic\"? $0#$b#Oh it tastes ba...$u#$b#...oOoOohh..I don't feel good...$2#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#Um, I feel a bit better... I think I'm going to curl up into a ball for a little while.$2",
                     "AcceptGift_(O)873": "Interesting, you say this is \"alcoholic\"? $0#$b#Oh it tastes ba...$u#$b#...oOoOohh..I don't feel good...$2#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#%Krobus looks... unwell.#$e#Um, I feel a bit better... I think I'm going to curl up into a ball for a little while.$2",
                 //GEMS/MINERALS/OTHER SHINY SHIT idk man
-                    "AcceptGift_(O)74": "%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1",
+                    "AcceptGift_(O)74": "$query !PLAYER_NPC_RELATIONSHIP current Krobus roommate#%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Wow...$3#$b#Thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1|%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Oh, @! Wow...$7#$b#Thank you very much, this may be my favorite artifact I have obtained thusfar!$1#$b#Aside from my Void Pendant, of course.$l",
                     "AcceptGift_(O)118": "Thank you, @. There's something I find quite enchanting about glass.$1#$b#It's so clear...$3",
                     "AcceptGift_(O)394": "Wow.. it's so beautiful... $1#$b#Thank you, @!$l",
                     "AcceptGift_(O)564": "Thank you @!$7#$b#I very much like shiny objects, this will make an excellect addition to my collection!",
@@ -125,7 +127,9 @@
                 ////////////
                     "AcceptBirthdayGift_Positive": "Oh, a gift to celebrate the day I left the caves!$7#$b#Thank you @! It's very sentimental date for me.$h#AddFriendshipPoints Krobus -50",
                     "AcceptBirthdayGift_(O)16": "..!!! $u#$b#Thank you @. This means a lot to me. $l#$b#It's very sentimental for me, horseradish was the first thing I had the day I left the caves all those years ago...#AddFriendshipPoints Krobus -10",
-            }
+                
+                    
+                }
         }
         /////////////////////////////////////////////
         //KROBUS UNMARRIED GIFT REATIONS NON-FRIDAY//
@@ -140,7 +144,6 @@
             "Entries": {
                 "AcceptGift_(O)Book_QueenOfSauce": "A book! Thank you!$1#$b#Oh, it's a collection of instructions on creating human food! Interesting...$7",
                 "AcceptGift_(0)16": "$query PLAYER_HEARTS 4, PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_hasHadHorseradish#More \"horseradish\"! Thank you @!$1|Oh, a \"horseradish\", thank you, @. These are my favorite!$1#$t {{ModId}}_hasHadHorseradish 999999999",
-                "AcceptGift_(O)74": "%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1",
                 "AcceptGift_(O)684": "Thank you, @! This will make a delicious meal once I am able to obtain a sufficient amount! $1",
                 "AcceptGift_(O)874": "Thank you, I was feeling hungry! *munch* $1"
             }
@@ -158,7 +161,6 @@
             "Entries": {
                 "AcceptGift_(O)Book_QueenOfSauce": "A book! Thank you!$1#$b#Oh, it's a collection of instructions on creating human food! Interesting...$7#$t {{ModId}}_krobustriestocook 2",
                 "AcceptGift_(0)16": "$query PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_hasHadHorseradish#More \"horseradish\"?$7#$b#Oh, @!$4#$b#I do still love these.$1#$b#%Krobus hugs you, seeming comforted by the constant that is you and your gifts.|Oh, a \"horseradish\", thank you, @! These are my favorite!$1#$t {{ModId}}_hasHadHorseradish 999999999",
-                "AcceptGift_(O)74": "%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Oh wow! I thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1#$b#Aside from my Void Pendant, of course, @.$l",
                 "AcceptGift_(O)684": "Thank you! This will make a delicious meal once I am able to obtain a sufficient amount! $1#$e#Oh, would you like any?",
                 "AcceptGift_(O)874": "{{i18n: Bug.Steak.Gifted.Roomate.{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}}", //BUG STEAK
             }
@@ -234,7 +236,7 @@
                     "HitBySlingshot": "Ow! *whimper* It's Krobus! I'm not a monster...",
                     "RejectRoommateProposal_AlreadyAccepted": "@... I already live with you? A-are you doing alright? @? $3#$e#Um.. perhaps you should \"lay down\" for a moment? That helps humans right?$3",
                     "eventSeen_96420011": "Hello..$3#$b#...$3#$b#Oh, I apologize.$2#$b#I still can't believe Dwarf saved me.$l", //THIS IS THE SEWER FLOOD
-
+                    "WipedMemory":"TBD",
 
                 //SPECIFIC DATES
                     "spring_13": "$query PLAYER_HEARTS Current Krobus 5 10#Hello @! I've been overhearing the townsfolk speak of an \"egg festival\".#I hope this may assist your festivities[680 445 437 305 182 176 174 180 812]!$h#",
@@ -369,6 +371,8 @@
                 //OTHER
                 "spouseRoom_Krobus": "{{i18n: Krobus.Room.{{Random: 1, 2, 3, 4, 5}}",
                 "Spouse_MonstersInHouse": "{{i18n: Krobus.Monsters.{{Random: 1, 2, 3, 4, 5}}",
+                
+                
                 "RejectRoommateProposal_AlreadyAccepted": "@... I already live with you? A-are you doing alright? @? $3#$e#Um.. perhaps you should \"lay down\" for a moment? That helps humans right?$3",
                 "krobusmovesin_memory_fourweeks": "$query PLAYER_HEARTS Current Krobus 12#Hello @! It's already been one month since I moved in, and I am cherishing every moment of it.$l",
                 "NoBed_0": "@! Are you alright? There's no bed, isn't lack of sleep dangerous for your species?!$s#$b#%Krobus scurries away to grab something, and returns with an Energy Tonic for you![349]#$e#Are you feeling better?$3",
@@ -403,6 +407,8 @@
                 "AcceptGift_(O)74": "%Krobus marvels at the Prismatic Shard, entranced by the flow of colors.#$b#%Krobus hugs you in appreciation, clearly delighted by the gift, and even more delighted by your generosity.",
                 "AcceptGift_Positive": "%Krobus smiles warmly at you in appreciation.",
                 "AcceptGift_Negative": "%Krobus looks diapointed...",
+                "RejectItem_808":"%You cannot gift this to Krobus. To roommate Krobus, you'll have to reach 10 hearts with Krobus, see all of Krobus's heart events, and upgrade your house to have a kitchen. After this, enter the sewers with this in your inventory to trigger a proposal event.",
+
                 //DAYS
                 "spring_5": "{{i18n: {{ModId}}_Friday_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,}}",
                 "spring_12": "...",
@@ -464,8 +470,8 @@
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
                 "NPC.cs.3990": "A new visitor!?$3#$b#Oh um, I'm Krobus, merchant of ..rare and ...exotic goods, and such..$3#$e#I apologize, it's been a while since I encountered someone new.$2#$e# But you can trust me!$3",
-                "Krobus_Engaged": "...!!! A Void Ghost pendant! How did you...?$3#$b#YES!!!$l#$b#Oh, wow...$7#$b#@, I'd love to come live with you, but we have to keep it secret from everyone.$0#$b#I'll be at your house in a few days... okay?$h#$e#You really want to?$3#$b#Oh @, I'm so happy!$l",
-                "Krobus_EngagedRoommate": "I can't wait to see your home and your farm and learn more about humans!$h#$b#Do you have any pets? I love cats!$7",
+                "Krobus_Engaged": "Jump Krobus 4 .5 0#...!!! A Void Ghost pendant?! H-How did you...?$3#$b#YES!!!!$l#$b#Oh, wow...$7#$b#Oh, @, I'd love to come live with you, but.. we have to keep it secret from everyone.$0#$b#I'll be at your house in a few days... okay?$h#$e#You really want to?$3#$b#Oh @, I'm so, so, so happy!$l",
+                "Krobus_EngagedRoommate": "I can't wait to see your home and your farm and learn more about humans!$h#$b#Do you have any pets?$7",
                 "Krobus_AfterWedding": "Good morning, @!$1#$b#Oh, I snuck in during the night.#$b#It'll take me a while to get used to this new life... but I'm really looking forward to it!$l#$b#$t krobusmovesin 1",
                 "KrobusShopGone": "I'm away. Please leave your payment in the box, I will collect it weekly. - Krobus",
                 "TriedToMarryButKrobus": "You can't propose to someone while living with a housemate. Besides, why would you? Krobus is obviously superior to any of the romanceable characters like cmonnnn.. (You could also download a poly mod, free love is pretty good!) - {{ModId}} creator <",
@@ -969,6 +975,24 @@
                         ]
                     },
                 }
+
+{//VOID PENDANT NULLIFICATION
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "TargetField": [ "808", "ContextTags" ],
+    "Entries": {
+        "propose_roommate_krobus": null
+        }
+},
+{//VOID PENDANT DESC EDIT
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+        "VoidGhostPendant_Description": "Void Ghost Pendants are sacred to Shadowfolk, and symbolize companionship. When you're eligible to roommate Krobus, enter the sewers with this in your inventory to trigger a proposal event. (It can still be gifted to other roommate-able shadowfolk NPCs!)",
+        }
+},
+
+
                 //TOPICS
                 //  {{ModId}}_krobusmovesin
                 //  {{ModId}}_{{ModId}}_krobuswonderswizard - krobus wonders whether the wizard knows that krobus has moved in with the player
