@@ -14,8 +14,8 @@
 
         // LOVES: -102, -103 (all books), 16 (horseradish), 72 (diamond), 74 (prismatic shard), 94 (sprit torch), 118 (glass shards), 276 (pumpkin), 305 (void egg), 308 (void mayo), 337 (iriduim bar), 394 (rainbow shell), 419 (vinegar), 564 (opal), (565) fire opal, (575) obsidian, (577) fairy stone, (578) star shards, 681 (rain totem), (746) jack-o-lantern, 797 (pearl),
         // LIKES: -2 (all gems), -12 (all minerals), 80 (quartz), 96 97 98 99 (dwarf scrolls), 172 (soggy newspaper), 203 (strange bun), 265 (seafoam pudding), 336 (gold bar), 414 (crystal fruit), 749 (omni-geode), 874 (bug steak) 879 (monster musk), MysticSyrup, 
-        // NEUTRAL: -5 (eggs), -6 (milk), -15 (metals), -75 (vegetable), -79 (fruit), -80 (flowers), -81 (greens), 18 (daffodil) 22 (dandelion), 84 (frozen tear), 170 (broken glasses) 395 (coffee), 684 (bug meat)
-        // DISLIKE: -4 (fish), -7 (food), -25 (ingredients), -26 (artisan goods) , 346 (beer), 348 (wine),   
+        // NEUTRAL: -5 (eggs), -6 (milk), -15 (metals), -75 (vegetable), -79 (fruit), -80 (flowers), -81 (greens), 18 (daffodil) 22 (dandelion), 84 (frozen tear), 170 (broken glasses), 684 (bug meat)
+        // DISLIKE: -4 (fish), -7 (food), -25 (ingredients), -26 (artisan goods) , 346 (beer), 348 (wine), 395 (coffee),  
         // HATE: -27 (syrups), 340 (honey), 459 (mead), 873 (pina colada), 903 (ginger ale)
 
         // REJECT: -19 (category_fertilizer), -74 (category_seeds) 
@@ -30,9 +30,9 @@
                 "Krobus": //the following part should have the enters removed
         "This is amazing! I very much appreciate your generosity, @./-102, -103 16 72 74 94 118 276 305 308 337 394 419 564 565 575 577 578 681 746 797 
         /Thank you very much./-2 -12 80 96 97 98 99 172 203 265 336 414 749 874 879 MysticSyrup
-        /Humans have... interesting tastes./-4 -7 -25 -26 346 346 348
+        /Humans have... interesting tastes./-4 -7 -25 -26 346 346 348 395
         /Oh... Um. I guess I'll accept it./-27 340 459 873 903 
-        /Thank you./-5 -6 -15 -75 -79 -80 -81 18 22 84 170 395 684/",
+        /Thank you./-5 -6 -15 -75 -79 -80 -81 18 22 84 170 684/",
             }
         },
 
@@ -79,11 +79,13 @@
                 //MISC.
                     "AcceptGift_(0)279": "Magic rock candy!? Wow...$3#$b#Thank you very, very much @, these are considered a sacred delicacy among us shadowfolk!$l#$b#I will save this for a future date, I wish to find a proper use for it before I indulge.$1#$e#...$3#$b#I'm still amazed, thank you very much for this wonderous gift!",
                     "AcceptGift_(O)308": "This looks delicious! I'll eat half, and use the other half to moisturize my body!!$h", //FIX THIS YOU'RE INCOPOREAL
+                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 5#TextAboveHead Krobus {{i18n: {{ModId}}_coffee_sick}} 3500 2000 true 56160C#ShakeNpc Krobus 10000", //coffee, caffine absolutely destroys krobus
+                    
                     "AcceptGift_(O)414": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_crystalfruitgiftedrotten#Thank you, @! I haven't seen this sort of crystal before, it's very pleasant.$1#$t {{ModId}}_crystalfruitgifted 1",
                         "{{ModId}}_crystalfruitgifted_memory_oneweek": "Hello, @. Something happened to the crystal you gave me, it became soft and collapsed.$2#$b#Oh, it was a fruit?!$7#{{ModId}}_crystalfruitgiftedrotten 99999999999",
                     "AcceptGift_(O)419": "Oh, a human beverage? Um, I suppose I will try it...$3#$b#Wow, it's delicious! Thank you, @!$l", //KROBUS ITS FUCKING VINEGARRRR WHATTT
                     "AcceptGift_(O)446": "Um, @? What is this?$3#$b#Oh, humans belive these \"fluff-things\" are meant to bring about good luck?$7#$b#That's fantastic!$1#$b#I very much appreciate you including me in your human customs, @!$l", //RABBIT FOOT
-                    "AcceptGift_(O)879": "A gift of lovely perfume? Oh, @... I'm blushing, but you probably can't notice...$4#$b#What does it smell like @? $0#$b#Us shadowfolk lack a sense of smell, but I still very much appreciate the sentiment!$h",
+                    "AcceptGift_(O)879": "A gift of lovely perfume? Oh @, I'm flattered!$4#$b#What does it smell like @? $0#$b#Us shadowfolk lack a sense of smell, but I still very much appreciate the sentiment!$h",
                     "AcceptGift_(O)903": "Oh, a human beverage? I suppose I will try it...$3#$b#%Krobus takes a sip of the ginger ale.#$b#\"Oh.\"$3#$b#@, please never give this to me again.$2#$e#*whimper*\"..the texture.\"$2#AddFriendshipPoints Krobus -50", //ginger ale
                     "AcceptGift_(O)MysticSyrup": "Wow, this is such a beautiful vase! Thank you!$1",
                 //FLOWERS
@@ -98,7 +100,6 @@
                     "AcceptGift_(O)74": "%Krobus gazes inently at the Prismatic Shard, captivated by the flow of colors.#$b#Thank you very much, @, this may be my favorite artifact I have obtained thusfar!$1",
                     "AcceptGift_(O)118": "Thank you, @. There's something I find quite enchanting about glass.$1#$b#It's so clear...$3",
                     "AcceptGift_(O)394": "Wow.. it's so beautiful... $1#$b#Thank you, @!$l",
-                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 5", //coffee, caffine absolutely destroys krobus
                     "AcceptGift_(O)564": "Thank you @!$7#$b#I very much like shiny objects, this will make an excellect addition to my collection!",
                     "AcceptGift_(O)565": "Thank you @!$7#$b#I very much like shiny objects, this will make an excellect addition to my collection!",
                     "AcceptGift_(O)577": "%Krobus marvels at the Fairy Stone, gazing intently at the crystal. It sparkles in an almost magical way, and there's a slight ringing sound eminanting from the Fairy Stone.#$b#This stone is so enchanting...$1#$b#Thank you for giving this to me, @!$l",
