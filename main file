@@ -79,16 +79,16 @@
                 //////////////
                     "AcceptGift_(O)StardropTea": "Is that... Stardrop Tea?$3#$b#Thank you so much! There's something so... soothing about it.$1#$b#I very much appreciate this, @. It is considered a great act of kindness among my people to offer this to somebody, and I am honored to be the recipient of such a gift.$4",
                 //MISC.
-                    "AcceptGift_(0)279": "Oh, magic rock candy? It's a very rare item.#$b#Oh, it's for me?!$3#$b#Oh, wow...$7#$b#Thank you very, very much @, these are considered a sacred delicacy among us shadowfolk!$l#$b#I will save this for a future date, I wish to find a proper use for it before I indulge.$1#$e#...$3#$b#I'm still amazed, thank you very much for this wonderful gift!#AddFriendshipPoints Krobus 20",
+                    "AcceptGift_(0)279": "Oh, magic rock candy? It's a very rare item.#$b#Oh, it's for me?!$3#$b#Oh, wow...$7#$b#Thank you very, very much @, these are considered a sacred delicacy among us shadowfolk!$l#$b#I will save this for a future date, I wish to find a proper use for it before I indulge.$1#$e#...$3#$b#I'm still amazed, thank you very much for this wonderful gift!#$action AddFriendshipPoints Krobus 20",
                     "AcceptGift_(O)308": "Oh, void mayo! This my favorite, @, I thank you!$1#$b#Did you make it on your farm?",
-                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#Jump Krobus 4 .5 0#AddFriendshipPoints Krobus 20#TextAboveHead Krobus {{i18n: {{ModId}}_coffee_sick}} 3500 2000 true 56160C#ShakeNpc Krobus 10000", //coffee, caffine absolutely destroys krobus
+                    "AcceptGift_(O)395": "Interesting, you say this is \"coffee\"?#$b#Hmmm.. the taste is.. odd. I-#$b#...$3#$b#@, does this berverage contain any substances that affect behavior..?$3#$b#Regardless, I'm going to read EVERY BOOK IN THE LIBRARY TONIGHT!$6#$e#he he hE HE HEEE!$7#$action Spiderbuttons.BETAS_Jump Krobus 4 .5 0#$action AddFriendshipPoints Krobus 20#$action Spiderbuttons.BETAS_TextAboveHead Krobus {{i18n: {{ModId}}_coffee_sick}} 3500 2000 true 56160C#$action Spiderbuttons.BETAS_ShakeNpc Krobus 10000", //coffee, caffine absolutely destroys krobus
                     
                     "AcceptGift_(O)414": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_crystalfruitgiftedrotten#Thank you, @! I haven't seen this sort of crystal before, it's very pleasant.$1#$t {{ModId}}_crystalfruitgifted 1",
                         "{{ModId}}_crystalfruitgifted_memory_oneweek": "Hello, @. Something happened to the crystal you gave me, it became soft and collapsed.$2#$b#Oh, it was a fruit?!$7#{{ModId}}_crystalfruitgiftedrotten 99999999999",
                     "AcceptGift_(O)419": "Oh, a human beverage? Um, I suppose I will try it...$3#$b#Wow, it's delicious! Thank you, @!$l", //KROBUS ITS FUCKING VINEGARRRR WHATTT
                     "AcceptGift_(O)446": "..Um, @? I-I don't know what this is..?$3#$b#Oh, humans belive these \"fluff-things\" are meant to bring about good luck?$7#$b#That's fantastic!$1#$b#I very much appreciate you including me in your human customs, @!$l", //RABBIT FOOT
                     "AcceptGift_(O)879": "A gift of lovely perfume? Oh @, I'm flattered!$4#$b#What does it smell like @? $0#$b#Us shadowfolk lack a sense of smell, but I still very much appreciate the sentiment!$h",
-                    "AcceptGift_(O)903": "Oh, a human beverage? I suppose I will try it...$3#$b#%Krobus takes a sip of the ginger ale.#$b#\"Oh.\"$3#$b#@, please never give this to me again.$2#$e#*whimper*\"..the texture.\"$2#AddFriendshipPoints Krobus -50", //ginger ale
+                    "AcceptGift_(O)903": "Oh, a human beverage? I suppose I will try it...$3#$b#%Krobus takes a sip of the ginger ale.#$b#\"Oh.\"$3#$b#@, please never give this to me again.$2#$e#*whimper*\"..the texture.\"$2#$action AddFriendshipPoints Krobus -50", //ginger ale
                     "AcceptGift_(O)MysticSyrup": "Wow, this is such a beautiful vase! Thank you!$1",
                 //FLOWERS
                     "AcceptGift_(0)18": "Oh, a \"flower\"!$1#$b#*munch*$u#$b#...#$b#It doesn't taste very good...$2#$b#...but I appreciate the sentiment! I tend to dislike most human food, but I'm sure you meant well, @.$1",
@@ -110,10 +110,10 @@
                     "AcceptGift_(O)681": "",
                 //JACK-O-LANTERN SIDE PLOT
                     "AcceptGift_(O)746": "$query !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_krobushasseenjackolanternquest#Oh, a \"jack-o-lantern\"! Interesting, I find them quite enjoyable. Thank you @!$1#$e#Are you aware of why they are called \"jack-o-lanterns\"?$0#$t {{ModId}}_krobusfindsoutjackolantern 1#$b#Oh, you don't know? I see.$2#$e#I will try to investigate this matter further.$3#$t {{ModId}}_krobushasseenjackolanternquest 99999999999999|I do still enjoy these pumpkin-torches.$1",
-                    "{{ModId}}_krobusfindsoutjackolantern_memory_oneday": "Hello @! I am still attemping to discover the reasoning behind the term for the pumpkin-torches you dub \"jack-o-lanterns\". I have gone through my dictionaries, though I have not yet come across the answer I seek.$0#$b#No matter, I will keep researching. This is fun!$7#$e#Do you have any insight as to what steps I should take next?$0#$b#Oh, there's an entire field of study about the origin of words?!$3#$e#Oh @, this is so exciting!! It's called \"etymology\"? $1#$b#Yes!! I'm going to sneak into the library tonight to find books on \"etymology\". Thank you so much!!$7#$e#I'm so excited I can hardly stay still!$1#AddFriendshipPoints Krobus 50",
-                    "{{ModId}}_krobusfindsoutjackolantern_memory_oneweek": "@! I have found the books on \"etymology\" in the library! I've been sneaking in to read them every night, it's so fascinating! I know I am getting closer and closer to my goal, and I thank you for assisting me!$1#$t {{ModId}}_rabbitholeresearching 1#AddFriendshipPoints Krobus 50",
+                    "{{ModId}}_krobusfindsoutjackolantern_memory_oneday": "Hello @! I am still attemping to discover the reasoning behind the term for the pumpkin-torches you dub \"jack-o-lanterns\". I have gone through my dictionaries, though I have not yet come across the answer I seek.$0#$b#No matter, I will keep researching. This is fun!$7#$e#Do you have any insight as to what steps I should take next?$0#$b#Oh, there's an entire field of study about the origin of words?!$3#$e#Oh @, this is so exciting!! It's called \"etymology\"? $1#$b#Yes!! I'm going to sneak into the library tonight to find books on \"etymology\". Thank you so much!!$7#$e#I'm so excited I can hardly stay still!$1#$action AddFriendshipPoints Krobus 50",
+                    "{{ModId}}_krobusfindsoutjackolantern_memory_oneweek": "@! I have found the books on \"etymology\" in the library! I've been sneaking in to read them every night, it's so fascinating! I know I am getting closer and closer to my goal, and I thank you for assisting me!$1#$t {{ModId}}_rabbitholeresearching 1#$action AddFriendshipPoints Krobus 50",
                     "{{ModId}}_rabbitholeresearching_memory_oneday": "Every time I think I may have found an answer for my query I discover yet more unanswered questions...$0#$b#This is fun!$7 ",
-                    "{{ModId}}_krobusfindsoutjackolantern_memory_fourweeks": "@! I think I may have found the answer to my query! $1#$e#You see, the term \"jack-o-lantern\" is a contraction of the phrase \"Jack of the lantern\", Jack being both a human name, and, historically, a generic term used to refer to an unknown human, and thus..#$b#%Krobus continues on, clearly very excited about Krobus's discoveries. Krobus seems to have uncovered a lot! You're not particularly interested in the intricacies of how and why the many, many, \"many\" topics Krobus brings up may be linked to the word \"jack-o-lantern\", but Krobus's immense enthusiasm is captivating enough on its own. You smile, charmed by Krobus's boundless passion for the things that most humans consider mundane.#$b#...Isn't that fascinating, @!$1#AddFriendshipPoints Krobus 50",
+                    "{{ModId}}_krobusfindsoutjackolantern_memory_fourweeks": "@! I think I may have found the answer to my query! $1#$e#You see, the term \"jack-o-lantern\" is a contraction of the phrase \"Jack of the lantern\", Jack being both a human name, and, historically, a generic term used to refer to an unknown human, and thus..#$b#%Krobus continues on, clearly very excited about Krobus's discoveries. Krobus seems to have uncovered a lot! You're not particularly interested in the intricacies of how and why the many, many, \"many\" topics Krobus brings up may be linked to the word \"jack-o-lantern\", but Krobus's immense enthusiasm is captivating enough on its own. You smile, charmed by Krobus's boundless passion for the things that most humans consider mundane.#$b#...Isn't that fascinating, @!$1#$action AddFriendshipPoints Krobus 50",
 
                 ////////////
                 //CATEGORY//
@@ -125,8 +125,8 @@
                 ////////////
                 //BIRTHDAY//
                 ////////////
-                    "AcceptBirthdayGift_Positive": "Oh, a gift to celebrate the day I left the caves!$7#$b#Thank you @! It's very sentimental date for me.$h#AddFriendshipPoints Krobus -50",
-                    "AcceptBirthdayGift_(O)16": "..!!! $u#$b#Thank you @. This means a lot to me. $l#$b#It's very sentimental for me, horseradish was the first thing I had the day I left the caves all those years ago...#AddFriendshipPoints Krobus -10",
+                    "AcceptBirthdayGift_Positive": "Oh, a gift to celebrate the day I left the caves!$7#$b#Thank you @! It's very sentimental date for me.$h#$action AddFriendshipPoints Krobus -50",
+                    "AcceptBirthdayGift_(O)16": "..!!! $u#$b#Thank you @. This means a lot to me. $l#$b#It's very sentimental for me, horseradish was the first thing I had the day I left the caves all those years ago...#$action AddFriendshipPoints Krobus -10",
                 
                     
                 }
@@ -513,47 +513,53 @@
 //OTHER NPC DIALOG//
 ////////////////////
 
-        //RASMODIUS//
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Wizard",
-            "Entries": {
-                "roommates_Krobus": "It will be odd, to live with one, such as you are with Krobus, but richly rewarding to both parties, I'm sure.$1#$e#I admit, I am most interested to see the outcome of such an unusual friendship.",
-                "{{ModId}}_krobuswonderswizard": "You say that Krobus wonders if I know Krobus is living with you?!$6#$b#Obviously I know!$a#$e#But do not worry yourselves, I will not allow harm to befall either of you.",
-                "{{ModId}}_Evicted_Krobus": "What you did is truly detestable, @.$a#$b#AddFriendshipPoints Wizard -1500#You should be ashamed, I've never seen Krobus so miserable.$s",
-                "18_*": "$query !SEASON Winter, PLAYER_HEARTS Current Krobus 14#Greetings, @. I had recently encounted Krobus on a nighttime stroll through the woods.#$b#Krobus seems to be doing quite well. I must confess, I previously feared Krobus may not be capable of such joyousness, but I am glad to be proven wrong.$1",
-            }
+    //RASMODIUS//
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "roommates_Krobus": "It will be odd, to live with one, such as you are with Krobus, but richly rewarding to both parties, I'm sure.$1#$e#I admit, I am most interested to see the outcome of such an unusual friendship.",
+            "{{ModId}}_krobuswonderswizard": "You say that Krobus wonders if I know Krobus is living with you?!$6#$b#Obviously I know!$a#$e#But do not worry yourselves, I will not allow harm to befall either of you.",
+            "{{ModId}}_Evicted_Krobus": "What you did is truly detestable, @.$a#$b#AddFriendshipPoints Wizard -1500#You should be ashamed, I've never seen Krobus so miserable.$s",
+            "18_*": "$query !SEASON Winter, PLAYER_HEARTS Current Krobus 14#Greetings, @. I had recently encounted Krobus on a nighttime stroll through the woods.#$b#Krobus seems to be doing quite well. I must confess, I previously feared Krobus may not be capable of such joyousness, but I am glad to be proven wrong.$1",
         }
-        //DWARF (NEED TLS)//
+    }
+    //DWARF (NEED TLS)//
+    {
+        "Action": "EditData",
         {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Dwarf",
-            "When": {
-                "HasMod |contains=Lemurkat.Dwarf.CP": true,
-            },
-            "Entries": {
-                "roommates_Krobus": "$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#brfberwlgbf",
-                "eventSeen_691039": "That accursed shadowfiend... *grumble*$a",
-                "eventSeen_96420011": "Now my flying machine is covered in void dust..$a", //THIS IS THE SEWER FLOOD EVENT
+        "Target": "Characters/Dialogue/Dwarf",
+        "When": {
+            "HasMod |contains=Lemurkat.Dwarf.CP": true,
+        },
+        "Entries": {
+            "roommates_Krobus": "$query PLAYER_HAS_SEEN_EVENT Current MAKE_EVENT_THEN_PUT_ID_HERE#brfberwlgbf",
+            "eventSeen_691039": "That accursed shadowfiend... *grumble*$a",
+            "eventSeen_96420011": "Now my flying machine is covered in void dust..$a", //THIS IS THE SEWER FLOOD EVENT
 
-                //YAP
-                "{{ModId}}_Yap_Dwarf_1_Dialog":"$query NPC_NEAR_NPC Dwarf 20 Krobus#That stupid dung-breath over there keeps going in my room and getting void dust into everything. It's everywhere. Void dust in my bed, void dust clogging the gears of my machines, there's even void dust stuck to my clothes since they keep hugging me.$a#$b#No, I don't want you to ask them to stop, why would you think that?",
-                "{{ModId}}_Yap_Dwarf_2_Dialog":"Friend, did you know that that dung-breath \"EATS BUGS?!\"#$b#Yeah- they EAT them. RAW. How do I know? They OFFERED me some. Ugh. Repulsive.$2#$e#Just take this- I don't even know why I took it...[874]",
-                "{{ModId}}_Yap_Dwarf_3_Dialog":"",
-                "{{ModId}}_Yap_Dwarf_4_Dialog":"",
-                "{{ModId}}_Yap_Dwarf_5_Dialog":"",
+            //YAP
+            "{{ModId}}_Yap_Dwarf_1_Dialog":"$query Spiderbuttons.BETAS_NPC_NEAR_NPC Dwarf 20 Krobus#That stupid dung-breath over there keeps going in my room and getting void dust into everything. It's everywhere. Void dust in my bed, void dust clogging the gears of my machines, there's even void dust stuck to my clothes since they keep hugging me.$a#$b#No, I don't want you to ask them to stop, why would you think that?",
+            "{{ModId}}_Yap_Dwarf_2_Dialog":"Friend, did you know that that dung-breath \"EATS BUGS?!\"#$b#Yeah- they EAT them. RAW. How do I know? They OFFERED me some. Ugh. Repulsive.$2#$e#Just take this- I don't even know why I took it...[874]",
+            "{{ModId}}_Yap_Dwarf_3_Dialog":"",
+            "{{ModId}}_Yap_Dwarf_4_Dialog":"",
+            "{{ModId}}_Yap_Dwarf_5_Dialog":"",
 
             }
         }
-        //MAIL 
-        {
-            "Action": "EditData",
-            "Target": "Data/mail",
-            "Entries": {
-                "KrobusCrafting": "@, I'm still quite unfamiliar with the human message system, so I asked Wizard to help me with writing this letter.^^I hope you are doing alright.^^I wanted to share this with you... it's notes on how my people build a certain item.^^   -Krobus%item craftingRecipe Dark_Sign %%[#]A letter from Krobus",
-                "ShaneCooking": "@,^I found this random-ass recipe page on the ground near the sewer and I thought it looked interesting, but I can't really cook soooo yeah. Anyways feel free to give me a taste if you make it. hehe. ^   -Shane%item cookingRecipe %%[#]Shane's Recipe",
-            }
+    }
+{//MAIL
+    "Action": "EditData",
+    {
+        "Target": "Data/Mail",
+        "Entries": {
+            //EDITS
+            "KrobusCrafting": "@, I'm still quite unfamiliar with the human message system, so I asked Wizard to help me with writing this letter.^^I hope you are doing alright.^^I wanted to share this with you... it's notes on how my people build a certain item.^^   -Krobus%item craftingRecipe Dark_Sign %%[#]A letter from Krobus",
+            "ShaneCooking": "@,^I found this random-ass recipe thing on the ground near the sewer and I thought it looked interesting, but I can't really cook soooo yeah. Anyways feel free to give me a taste if you make it. hehe. ^   -Shane%item cookingRecipe %%[#]Shane's Recipe",
+            //CUSTOM
+            "{{ModId}}_Helm_Letter": "@,^This is my first time attempting to use the human message system without assistance, I apologize if this 'letter' is confusing.^I found a Smoluanu Helm in the sewers after the flood. I understand that they are of much significance to the Smoluanu, and I wish to gift it to Dwarf. However, I do not feel comfortable entering the mines on my own, and I would very much appreciate your assistance delivering it. Please meet me in the mountains after 10pm on a rainy day.^May Yoba be with you,^         Krobus[#]A request from Krobus"            
         }
+    }
+}    
 //EVENTS
     { //SEWER EVENT
         "Action": "EditData",
@@ -893,60 +899,70 @@
 
         WeatherWonders_Cloudy GreenRain  Snow WeatherWonders_MuddyRain
 
-                //MAIL
-                { //EMILY LETTERS (IF EMILY KNOWS KROBUS) 
-                        {
-                            "Action": "EditData",
-                            "Target": "Data/TriggerActions",
-                            "Entries": {
-                                //LETTER 1
-                                "{{ModId}}_Emily_Letter_1_Chance": {
-                                    "Id": "{{ModId}}_Emily_Letter_1_Chance",
-                                    "Trigger": "DayEnding",
-                                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
-                                    "Actions": [
-                                        "AddMail Current {{ModId}}_Emily_Letter_1 tomorrow",
-                                    ]
-                                },
-                                //LETTER 2
-                                "{{ModId}}_Emily_Letter_2_Chance": {
-                                    "Id": "{{ModId}}_Emily_Letter_2_Chance",
-                                    "Trigger": "DayEnding",
-                                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
-                                    "Actions": [
-                                        "AddMail Current {{ModId}}_Emily_Letter_2 tomorrow",
-                                    ]
-                                },
-                                //LETTER 3
-                                "{{ModId}}_Emily_Letter_3_Chance": {
-                                    "Id": "{{ModId}}_Emily_Letter_3_Chance",
-                                    "Trigger": "DayEnding",
-                                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
-                                    "Actions": [
-                                        "AddMail Current {{ModId}}_Emily_Letter_3 tomorrow",
-                                    ]
-                                },
-                                //LETTER 4
-                                "{{ModId}}_Emily_Letter_4_Chance": {
-                                    "Id": "{{ModId}}_Emily_Letter_4_Chance",
-                                    "Trigger": "DayEnding",
-                                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
-                                    "Actions": [
-                                        "AddMail Current {{ModId}}_Emily_Letter_4 tomorrow",
-                                    ]
-                                },
-                                //LETTER 2
-                                "{{ModId}}_Emily_Letter_Quest_Chance": {
-                                    "Id": "{{ModId}}_Emily_Letter_Quest_Chance",
-                                    "Trigger": "DayEnding",
-                                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
-                                    "Actions": [
-                                        "AddMail Current {{ModId}}_Emily_Letter_Quest tomorrow",
-                                    ]
-                                },
-                            }
-                        }
-                }
+{   //MAIL TRIGGERS
+    {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            //HELM QUEST LETTER
+            "{{ModId}}_Helm_Quest_Trigger": {
+                "Id": "{{ModId}}_Helm_Quest_Trigger",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_HEARTS Current Dwarf 10, PLAYER_HEARTS Current Krobus 10, RANDOM .06, PLAYER_HAS_SEEN_EVENT current 9642001, PLAYER_HAS_MAIL <player> _Helm_Letter Received",
+                "Actions": [
+                    "AddMail Current {{ModId}}_Helm_Letter tomorrow",
+                       ]
+               },
+
+            //EMILY LETTERS (IF EMILY KNOWS KROBUS) 
+            //LETTER 1
+            "{{ModId}}_Emily_Letter_1_Chance": {
+                "Id": "{{ModId}}_Emily_Letter_1_Chance",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
+                "Actions": [
+                    "AddMail Current {{ModId}}_Emily_Letter_1 tomorrow",
+                       ]
+               },
+               //LETTER 2
+               "{{ModId}}_Emily_Letter_2_Chance": {
+                   "Id": "{{ModId}}_Emily_Letter_2_Chance",
+                   "Trigger": "DayEnding",
+                   "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
+                   "Actions": [
+                       "AddMail Current {{ModId}}_Emily_Letter_2 tomorrow",
+                   ]
+               },
+               //LETTER 3
+               "{{ModId}}_Emily_Letter_3_Chance": {
+                   "Id": "{{ModId}}_Emily_Letter_3_Chance",
+                   "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
+                   "Actions": [
+                       "AddMail Current {{ModId}}_Emily_Letter_3 tomorrow",
+                   ]
+               },
+            //LETTER 4
+            "{{ModId}}_Emily_Letter_4_Chance": {
+                "Id": "{{ModId}}_Emily_Letter_4_Chance",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
+                "Actions": [
+                    "AddMail Current {{ModId}}_Emily_Letter_4 tomorrow",
+                ]
+            },
+            //LETTER QUEST
+            "{{ModId}}_Emily_Letter_Quest_Chance": {
+                "Id": "{{ModId}}_Emily_Letter_Quest_Chance",
+                "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP current Krobus Roommate, RANDOM .01, PLAYER_HEARTS current Emily 8, PLAYER_HAS_SEEN_EVENT current {{ModId}}_Met_Emily_Event",
+                "Actions": [
+                    "AddMail Current {{ModId}}_Emily_Letter_Quest tomorrow",
+                ]
+            },
+        }
+    }
+}
 
 { //CONCESSIONS PREFERENCES
                     "Action": "EditData",
@@ -988,7 +1004,7 @@
     "Action": "EditData",
     "Target": "Strings/Objects",
     "Entries": {
-        "VoidGhostPendant_Description": "Void Ghost Pendants are sacred to Shadowfolk, and symbolize companionship. When you're eligible to roommate Krobus, enter the sewers with this in your inventory to trigger a proposal event. (It can still be gifted to other roommate-able shadowfolk NPCs!)",
+        "VoidGhostPendant_Description": "Void Ghost Pendants are sacred to Shadowfolk, and symbolize companionship. When you're eligible to roommate Krobus, enter the sewers with this in your inventory to trigger a proposal event. (It can still be gifted as usual to other roommate-able shadowfolk NPCs!)",
         }
 },
 
